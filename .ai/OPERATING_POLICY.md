@@ -46,11 +46,23 @@ Use the cheapest capable route that satisfies privacy, quality, and latency:
 
 Preferred AI roles:
 
-- Gemini: broad research, large-context synthesis, and workspace orientation.
+- Claude (orchestrator): planning with the owner, task decomposition,
+  architecture, verification, merges, and consequential judgment.
+- Gemini via Antigravity CLI: broad web research, citation gathering, and
+  large-document synthesis.
 - Codex: repository implementation, testing, and focused technical review.
-- Claude: architecture, consequential judgment, and complex refactoring.
-- Local models: privacy-sensitive, repetitive, classification, extraction, and
-  routine transformations.
+- Local Ollama model: privacy-sensitive, repetitive, digest, classification,
+  extraction, and routine checks.
+
+Token and subscription discipline:
+
+- Use flat-rate subscriptions (claude.ai, ChatGPT, Google AI Pro) or local
+  models; never per-token API keys without explicit owner approval.
+- Start a fresh, small session per task from a short brief; keep memory in
+  repository files, not long chat histories.
+- Return concise handoffs and put long output in files.
+- When a subscription quota is exhausted, reroute and tell the owner; never
+  fall back silently to paid billing.
 
 These are routing defaults, not excuses to duplicate work. Reuse prior verified
 results and make cost materiality visible. A cost rule must never push local-only

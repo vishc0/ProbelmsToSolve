@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "verification-packet-auditing",
+  "title": "Packet Verification Auditing",
+  "summary": "Random recomputation sampling to detect rogue AI training runs.",
+  "status": "incubating",
+  "visibility": "public",
+  "domain": "verification-and-auditing",
+  "owner": "Chippa Vishweshwar",
+  "project_id": "packet-verification-sim",
+  "website": {
+    "slug": "verification-packet-auditing",
+    "featured": true
+  },
+  "updated": "2026-10-02"
+}

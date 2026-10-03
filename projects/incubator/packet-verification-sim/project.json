@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "packet-verification-sim",
+  "title": "Packet Verification Simulator",
+  "summary": "Monte Carlo simulator for packet-based random recomputation auditing.",
+  "status": "incubator",
+  "visibility": "public",
+  "domain": "verification-and-auditing",
+  "source_opportunity": "catalog/opportunities/verification-packet-auditing/opportunity.json",
+  "steward": {
+    "name": "Chippa Vishweshwar",
+    "github": "vishc0"
+  },
+  "website": {
+    "slug": "packet-verification-sim",
+    "featured": true
+  },
+  "repository": {
+    "path": "projects/incubator/packet-verification-sim",
+    "license": "Apache-2.0"
+  },
+  "updated": "2026-10-02"
+}

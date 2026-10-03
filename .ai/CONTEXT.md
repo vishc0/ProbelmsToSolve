@@ -37,9 +37,9 @@ Cloud and GPU infrastructure is an enabling capability.
 - The MVP follows a free-first hybrid design: laptop control/worker capacity,
   free scale-to-zero CPU hosting, programmatic burst GPU, and notebook-based
   research experiments.
-- Current laptop measurement: 6 cores/12 threads, 31 GiB RAM, and ~731 GiB free
-  workspace disk. Local NVIDIA device access and Ollama are not currently
-  verified operational.
+- Current laptop measurement: 6 cores/12 threads, 31 GiB RAM, ~731 GiB free
+  workspace disk, and a working 6 GiB NVIDIA GPU with Ollama on CUDA (verified
+  2026-10-02; see `setup/laptop/BASELINE.md`).
 
 ## Environment facts
 

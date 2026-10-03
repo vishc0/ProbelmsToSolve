@@ -8,7 +8,7 @@ production SLA.
 
 | Resource | Current free value | Best MVP use | Important constraint | Official source |
 |---|---|---|---|---|
-| Local laptop | 6 cores/12 threads, 31 GiB RAM, ~731 GiB free disk | Primary development, control-plane experiments, CPU worker | NVIDIA modules load, but device nodes and Ollama were unavailable during verification | Local measurement in `setup/laptop/BASELINE.md` |
+| Local laptop | 6 cores/12 threads, 31 GiB RAM, ~731 GiB free disk, 6 GiB NVIDIA GPU | Primary development, control-plane experiments, CPU worker, local Ollama route | 6 GiB GTX 1060: ~4B model at 16K context fully on GPU; larger spills to CPU | Local measurement in `setup/laptop/BASELINE.md` |
 | Google Cloud Run | 2M requests, 240k vCPU-seconds, and 450k GiB-seconds monthly free allowance | Scale-to-zero web/API and bounded jobs | Billing account and careful egress/build controls still matter | https://cloud.google.com/run/pricing |
 | Google Compute Engine | One `e2-micro` VM, 30 GB standard disk, 1 GB outbound monthly in eligible US regions | Tiny coordinator, monitor, or bastion | GPUs/TPUs are not included | https://cloud.google.com/free/docs/free-cloud-features |
 | Google Cloud Storage | 5 GB-month standard storage plus limited operations/egress in eligible US regions | Small public artifacts and source metadata | Region and operation limits apply | https://cloud.google.com/storage/pricing |

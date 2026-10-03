@@ -70,3 +70,14 @@ supporting documentation when useful.
   documents, and 200 only for major canonical specifications.
 - Split by stable subject and link to one canonical owner instead of duplicating
   content.
+
+## 2026-10-03 — Orchestrator and worker roles
+
+- Claude Code is the single orchestrator; Antigravity (Gemini), Codex, and the
+  local Ollama model are workers that receive bounded, file-scoped tasks.
+- Workers use separate git worktrees, never commit, and return handoffs; the
+  orchestrator verifies, merges after owner-approved commit policy, and alone
+  updates task state.
+- All AI use runs on flat-rate subscriptions or local models; Gemini CLI and
+  per-token API keys are retired from routine work.
+

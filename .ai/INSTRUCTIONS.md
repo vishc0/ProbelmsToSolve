@@ -1,7 +1,17 @@
 # Shared AI Workspace Instructions
 
-This repository provisions and configures cloud compute machines, with special
-attention to GPU-enabled virtual machines.
+CloudSetup is a human–AI project foundry: it turns research and lived problems
+into traceable opportunities and reusable projects (see `PROJECT_INTENT.md`).
+Cloud and GPU infrastructure is an enabling capability, not the product.
+
+## Orchestration
+
+Claude Code is the orchestrator. It plans with the owner, assigns bounded tasks
+to Antigravity (Gemini, research), Codex (implementation and tests), and the
+local Ollama model (digests, summaries, checks), verifies results, and merges.
+Workers act only on the task and files they are given, work in their assigned
+git worktree, never commit, never edit `.ai/TASKS.md`, and end every task with a
+short handoff (result, files changed, checks run, open questions).
 
 These instructions are the single shared source for Codex, Claude Code, and
 Gemini CLI. The repository-root `AGENTS.md`, `CLAUDE.md`, and `GEMINI.md` files
