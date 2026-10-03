@@ -26,6 +26,13 @@ improving everyday life, strengthening human capability, and helping communities
 develop positive habits and resilient services without exploitation, exclusion,
 or loss of agency.
 
+Differences between people and nations will always exist, but we live together
+in one world. CloudSetup favours approaches that help people prosper together:
+open standards, shared infrastructure, and cooperation across countries and
+communities, over solutions that benefit one group at another's expense.
+Knowledge and wisdom should be free, and access to AI and the internet should be
+treated as a basic necessity for everyone.
+
 ## Mission
 
 Identify high-friction problems affecting people and communities, investigate
