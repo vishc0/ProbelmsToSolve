@@ -9,9 +9,10 @@
   "owner": "Unassigned",
   "links": {
     "domains": [
-      "everyday-ai-empowerment"
+      "public-services-justice-and-governance"
     ]
   },
+  "facets": {"mission": ["everyday-ai-empowerment"], "capability": [], "population": ["households", "communities"], "geography": [], "topic": []},
   "provenance": {
     "label": "ai-inference",
     "sources": [

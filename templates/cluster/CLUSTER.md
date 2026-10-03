@@ -5,6 +5,7 @@
 - Cluster ID: `{{CLUSTER_ID}}`
 - Status: hypothesis
 - Owner: {{OWNER_NAME}}
+- Domains and facets: see `cluster.json`
 
 ## Shared root cause
 

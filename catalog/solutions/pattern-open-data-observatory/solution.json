@@ -19,6 +19,7 @@
       "cluster-brittle-essential-systems"
     ]
   },
+  "facets": {"mission": [], "capability": ["sensing", "verification"], "population": ["institutions"], "geography": ["global"], "topic": ["energy-resilience", "supply-chains"]},
   "provenance": {
     "label": "ai-inference",
     "sources": [

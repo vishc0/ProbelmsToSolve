@@ -6,12 +6,13 @@
   "summary": "A local, user-controlled assistant that explains bills and notices, checks them against public rules, and drafts reviewable responses.",
   "status": "incubating",
   "visibility": "draft",
-  "domain": "everyday-ai-empowerment",
+  "domain": "household-finance-and-consumer-protection",
   "owner": "Unassigned",
   "project_id": "bill-auditor",
   "links": {
     "domains": [
-      "everyday-ai-empowerment"
+      "household-finance-and-consumer-protection",
+      "health-and-care"
     ],
     "clusters": [
       "cluster-denial-by-default",
@@ -27,6 +28,7 @@
       "pattern-local-document-auditor"
     ]
   },
+  "facets": {"mission": ["everyday-ai-empowerment"], "capability": ["verification"], "population": ["households"], "geography": ["local"], "topic": ["consumer-protection", "household-costs"]},
   "provenance": {
     "label": "ai-inference",
     "sources": [

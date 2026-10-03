@@ -9,7 +9,8 @@
   "owner": "Unassigned",
   "links": {
     "domains": [
-      "everyday-ai-empowerment",
+      "household-finance-and-consumer-protection",
+      "work-and-livelihoods",
       "energy-and-infrastructure"
     ],
     "clusters": [
@@ -18,6 +19,7 @@
       "cluster-junk-fees-and-unbundling"
     ]
   },
+  "facets": {"mission": ["everyday-ai-empowerment"], "capability": [], "population": ["households", "workers"], "geography": ["local"], "topic": ["energy-resilience", "household-costs"]},
   "provenance": {
     "label": "ai-inference",
     "sources": [

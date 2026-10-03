@@ -9,9 +9,10 @@
   "owner": "Unassigned",
   "links": {
     "domains": [
-      "everyday-ai-empowerment"
+      "digital-systems-and-ai"
     ]
   },
+  "facets": {"mission": ["everyday-ai-empowerment"], "capability": [], "population": ["communities"], "geography": [], "topic": []},
   "provenance": {
     "label": "ai-inference",
     "sources": [

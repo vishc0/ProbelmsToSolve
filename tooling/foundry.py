@@ -22,7 +22,18 @@ PROVENANCE_LABELS = {
 }
 COMMON_FIELDS = {
     "schema_version", "record_type", "id", "title", "summary", "status",
-    "visibility", "owner", "links", "provenance", "created", "updated",
+    "visibility", "owner", "links", "facets", "provenance", "created", "updated",
+}
+FACET_VALUES = {
+    "mission": {"everyday-ai-empowerment"},
+    "capability": {"sensing", "verification"},
+    "population": {"households", "workers", "communities", "institutions"},
+    "geography": {"local", "national", "global"},
+    "topic": {
+        "addiction", "ai-control", "compute-governance", "consumer-protection",
+        "energy-resilience", "household-costs", "mental-health",
+        "research-evaluation", "supply-chains",
+    },
 }
 LEGACY_OPPORTUNITY_FIELDS = {
     "schema_version", "id", "title", "summary", "status", "visibility",
@@ -115,12 +126,21 @@ def checked_slugs(values: Iterable[str], label: str) -> list[str]:
     return [require_slug(value, label) for value in values]
 
 
+def requested_facets(args: argparse.Namespace) -> dict[str, list[str]]:
+    return {
+        name: checked_slugs(getattr(args, name, None) or [], f"{name} facet")
+        for name in FACET_VALUES
+    }
+
+
 def new_domain(args: argparse.Namespace, root: Path) -> Path:
     record_id = require_slug(args.id, "Domain ID")
     return scaffold_record(
         root, "domain", record_id, common_replacements(args, "DOMAIN"),
         {"id": record_id, "title": args.title, "summary": args.summary,
-         "owner": args.owner, "updated": date.today().isoformat()},
+         "owner": args.owner, "parent": getattr(args, "parent", None),
+         "aliases": checked_slugs(getattr(args, "alias", None) or [], "Alias"),
+         "facets": requested_facets(args), "updated": date.today().isoformat()},
     )
 
 
@@ -132,6 +152,7 @@ def new_problem(args: argparse.Namespace, root: Path) -> Path:
         root, "problem", record_id, common_replacements(args, "PROBLEM"),
         {"id": record_id, "title": args.title, "summary": args.summary,
          "owner": args.owner, "links": {"domains": domains, "clusters": clusters},
+         "facets": requested_facets(args),
          "updated": date.today().isoformat()},
     )
 
@@ -143,6 +164,7 @@ def new_cluster(args: argparse.Namespace, root: Path) -> Path:
         root, "cluster", record_id, common_replacements(args, "CLUSTER"),
         {"id": record_id, "title": args.title, "summary": args.summary,
          "owner": args.owner, "links": {"domains": domains},
+         "facets": requested_facets(args),
          "updated": date.today().isoformat()},
     )
 
@@ -156,7 +178,8 @@ def new_solution(args: argparse.Namespace, root: Path) -> Path:
     return scaffold_record(
         root, "solution", record_id, common_replacements(args, "SOLUTION"),
         {"id": record_id, "title": args.title, "summary": args.summary,
-         "owner": args.owner, "links": links, "updated": date.today().isoformat()},
+         "owner": args.owner, "links": links, "facets": requested_facets(args),
+         "updated": date.today().isoformat()},
     )
 
 
@@ -171,6 +194,7 @@ def new_opportunity(args: argparse.Namespace, root: Path) -> Path:
          "domain": domain, "owner": args.owner,
          "links": {"domains": [domain], "clusters": clusters,
                    "projects": [], "solutions": []},
+         "facets": requested_facets(args),
          "website": {"slug": opportunity_id, "featured": False},
          "updated": date.today().isoformat()},
     )
@@ -219,6 +243,14 @@ def new_project(args: argparse.Namespace, root: Path) -> Path:
         "steward": {"name": args.steward, "github": ""},
         "links": {"domains": domains, "opportunities": opportunity_ids,
                   "solutions": solutions},
+        "facets": {
+            name: sorted({
+                facet
+                for _, opportunity in opportunities
+                for facet in opportunity.get("facets", {}).get(name, [])
+            })
+            for name in FACET_VALUES
+        },
         "website": {"slug": project_id, "featured": False},
         "repository": {"path": str(target.relative_to(root)), "license": "TBD"},
         "created": date.today().isoformat(),
@@ -322,6 +354,33 @@ def validate_manifest(
             errors.append(f"{label}: provenance.label is missing or unsupported")
         if not isinstance(value.get("links"), dict):
             errors.append(f"{label}: links must be an object")
+        facets = value.get("facets")
+        if not isinstance(facets, dict):
+            errors.append(f"{label}: facets must be an object")
+        else:
+            unknown_keys = sorted(set(facets) - set(FACET_VALUES))
+            if unknown_keys:
+                errors.append(
+                    f"{label}: unknown facet types: {', '.join(unknown_keys)}"
+                )
+            for facet_type, allowed in FACET_VALUES.items():
+                values = facets.get(facet_type, [])
+                if (
+                    not isinstance(values, list)
+                    or any(not isinstance(item, str) for item in values)
+                ):
+                    errors.append(f"{label}: facets.{facet_type} must be a list")
+                    continue
+                if len(values) != len(set(values)):
+                    errors.append(
+                        f"{label}: facets.{facet_type} contains duplicate values"
+                    )
+                unknown_values = sorted(set(values) - allowed)
+                if unknown_values:
+                    errors.append(
+                        f"{label}: unknown {facet_type} facet values: "
+                        f"{', '.join(unknown_values)}"
+                    )
         for field in ("created", "updated"):
             try:
                 date.fromisoformat(value.get(field, ""))
@@ -332,6 +391,27 @@ def validate_manifest(
 
 def validate(root: Path) -> list[str]:
     records, errors = read_records(root)
+    domain_aliases: dict[str, str] = {}
+    for domain_id, domain in records.get("domain", {}).items():
+        label = f"domain {domain_id}"
+        aliases = domain.get("aliases", [])
+        if not isinstance(aliases, list) or any(
+            not isinstance(alias, str) or not SLUG.fullmatch(alias)
+            for alias in aliases
+        ):
+            errors.append(f"{label}: aliases must be a list of kebab-case ids")
+            continue
+        for alias in aliases:
+            if alias in records["domain"] or alias in domain_aliases:
+                errors.append(f"{label}: domain alias {alias!r} is not unique")
+            else:
+                domain_aliases[alias] = domain_id
+        parent = domain.get("parent")
+        if parent is not None and parent not in records["domain"]:
+            errors.append(f"{label}: parent domain {parent!r} was not found")
+        if parent == domain_id:
+            errors.append(f"{label}: parent cannot refer to itself")
+
     for record_type, items in records.items():
         for value in items.values():
             errors.extend(
@@ -367,14 +447,24 @@ def validate(root: Path) -> list[str]:
                             f"{label}: links.{link_name} contains duplicate ids"
                         )
                     for reference in references:
-                        if reference not in records.get(target_type, {}):
+                        if (
+                            reference not in records.get(target_type, {})
+                            and not (
+                                target_type == "domain"
+                                and reference in domain_aliases
+                            )
+                        ):
                             errors.append(
                                 f"{label}: referenced {target_type} "
                                 f"{reference!r} was not found"
                             )
             if record_type in {"opportunity", "project"}:
                 domain = value.get("domain")
-                if domain and domain not in records.get("domain", {}):
+                if (
+                    domain
+                    and domain not in records.get("domain", {})
+                    and domain not in domain_aliases
+                ):
                     errors.append(f"{label}: domain {domain!r} was not found")
             if record_type == "opportunity":
                 project_id = value.get("project_id")
@@ -494,12 +584,33 @@ def generate_indexes(root: Path) -> list[Path]:
         root / "catalog/indexes/by-cluster.md",
         root / "catalog/indexes/by-state.md",
         root / "catalog/indexes/by-solution.md",
+        root / "catalog/indexes/by-facet.md",
     ]
+
+    domain_aliases = {
+        alias: domain_id
+        for domain_id, domain in records["domain"].items()
+        for alias in domain.get("aliases", [])
+    }
 
     def domain_sections(output: Path) -> list[tuple[str, list[str]]]:
         sections = []
-        for domain_id, domain in sorted(records["domain"].items()):
+        ordered_domains = sorted(
+            records["domain"].items(),
+            key=lambda pair: (pair[1].get("parent") is not None, pair[0]),
+        )
+        for domain_id, domain in ordered_domains:
             entries = [domain["summary"], ""]
+            parent = domain.get("parent")
+            if parent:
+                entries.extend([f"Subdomain of `{parent}`.", ""])
+            else:
+                entries.extend(["Top-level sector domain.", ""])
+            aliases = domain.get("aliases", [])
+            if aliases:
+                entries.extend(
+                    [f"Compatibility aliases: {', '.join(f'`{alias}`' for alias in aliases)}.", ""]
+                )
             for kind in (
                 "problem", "cluster", "opportunity", "project", "solution",
             ):
@@ -509,8 +620,12 @@ def generate_indexes(root: Path) -> list[Path]:
                 for value in values:
                     links = value.get("links", {})
                     if (
-                        domain_id in links.get("domains", [])
-                        or value.get("domain") == domain_id
+                        domain_id in {
+                            domain_aliases.get(item, item)
+                            for item in links.get("domains", [])
+                        }
+                        or domain_aliases.get(value.get("domain"), value.get("domain"))
+                        == domain_id
                     ):
                         entries.append(item_line(root, output, kind, value))
             heading = (
@@ -562,6 +677,19 @@ def generate_indexes(root: Path) -> list[Path]:
                 )
         solution_sections.append((solution["title"], entries))
     write_index(outputs[4], "Catalog by Solution Pattern", solution_sections)
+    facet_sections = []
+    for facet_type, allowed in FACET_VALUES.items():
+        for facet in sorted(allowed):
+            entries = []
+            for kind, items in records.items():
+                for value in sorted(items.values(), key=lambda item: item["title"]):
+                    if facet in value.get("facets", {}).get(facet_type, []):
+                        entries.append(item_line(root, outputs[5], kind, value))
+            if entries:
+                facet_sections.append(
+                    (f"{facet_type.title()}: {facet.replace('-', ' ').title()}", entries)
+                )
+    write_index(outputs[5], "Catalog by Facet", facet_sections)
     return outputs
 
 
@@ -575,6 +703,8 @@ def add_common_arguments(
     command.add_argument("--owner", default="Unassigned")
     if repeated_domains:
         command.add_argument("--domain", action="append", required=True)
+    for facet_type in FACET_VALUES:
+        command.add_argument(f"--{facet_type}", action="append")
 
 
 def parser() -> argparse.ArgumentParser:
@@ -587,6 +717,8 @@ def parser() -> argparse.ArgumentParser:
     subcommands = command.add_subparsers(dest="command", required=True)
     domain = subcommands.add_parser("new-domain")
     add_common_arguments(domain)
+    domain.add_argument("--parent")
+    domain.add_argument("--alias", action="append")
     problem = subcommands.add_parser("new-problem")
     add_common_arguments(problem, repeated_domains=True)
     problem.add_argument("--cluster", action="append")

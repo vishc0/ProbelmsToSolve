@@ -4,6 +4,7 @@
 
 - Project ID: `{{PROJECT_ID}}`
 - Domain: `{{DOMAIN_ID}}`
+- Additional domains and facets: see `project.json`
 - Originating opportunity:
   `catalog/opportunities/{{OPPORTUNITY_ID}}/opportunity.json`
 - Initial steward: {{STEWARD_NAME}}

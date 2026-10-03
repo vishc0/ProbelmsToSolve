@@ -6,12 +6,12 @@
   "summary": "Private analysis that helps households identify recurring charges, price increases, and difficult-to-exit costs.",
   "status": "incubating",
   "visibility": "draft",
-  "domain": "everyday-ai-empowerment",
+  "domain": "household-finance-and-consumer-protection",
   "owner": "Unassigned",
   "project_id": "subscription-checker",
   "links": {
     "domains": [
-      "everyday-ai-empowerment"
+      "household-finance-and-consumer-protection"
     ],
     "clusters": [
       "cluster-easy-in-hard-out",
@@ -25,6 +25,7 @@
       "pattern-local-document-auditor"
     ]
   },
+  "facets": {"mission": ["everyday-ai-empowerment"], "capability": [], "population": ["households"], "geography": ["local"], "topic": ["consumer-protection", "household-costs"]},
   "provenance": {
     "label": "ai-inference",
     "sources": [

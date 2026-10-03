@@ -24,6 +24,7 @@
       "random-recomputation-audit"
     ]
   },
+  "facets": {"mission": [], "capability": ["verification"], "population": ["institutions"], "geography": ["global"], "topic": ["compute-governance"]},
   "provenance": {
     "label": "human-decision",
     "sources": [

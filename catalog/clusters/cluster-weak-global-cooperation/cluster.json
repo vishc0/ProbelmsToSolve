@@ -12,6 +12,7 @@
       "global-cooperation-and-peace"
     ]
   },
+  "facets": {"mission": [], "capability": ["verification"], "population": ["institutions"], "geography": ["global"], "topic": []},
   "provenance": {
     "label": "ai-inference",
     "sources": [

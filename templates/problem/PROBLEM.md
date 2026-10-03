@@ -5,6 +5,7 @@
 - Problem ID: `{{PROBLEM_ID}}`
 - Status: documented
 - Owner: {{OWNER_NAME}}
+- Domains and facets: see `problem.json`
 
 ## Affected people and context
 

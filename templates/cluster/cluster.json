@@ -10,6 +10,10 @@
   "links": {
     "domains": []
   },
+  "facets": {
+    "mission": [], "capability": [], "population": [],
+    "geography": [], "topic": []
+  },
   "provenance": {
     "label": "human-direction",
     "sources": []

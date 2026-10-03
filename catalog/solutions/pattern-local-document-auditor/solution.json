@@ -9,7 +9,8 @@
   "owner": "Unassigned",
   "links": {
     "domains": [
-      "everyday-ai-empowerment"
+      "household-finance-and-consumer-protection",
+      "health-and-care"
     ],
     "clusters": [
       "cluster-denial-by-default",
@@ -19,6 +20,7 @@
       "cluster-junk-fees-and-unbundling"
     ]
   },
+  "facets": {"mission": ["everyday-ai-empowerment"], "capability": ["verification"], "population": ["households"], "geography": ["local"], "topic": ["consumer-protection", "household-costs"]},
   "provenance": {
     "label": "ai-inference",
     "sources": [

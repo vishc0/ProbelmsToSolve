@@ -14,7 +14,19 @@ python3 tooling/foundry.py new-solution --help
 
 Problems can link to several domains and clusters. Clusters capture shared root
 causes across domains. Projects link to one or more opportunities and reusable
-solution patterns.
+solution patterns. Domains may use `--parent` and repeatable `--alias`; all
+record commands accept repeatable controlled facet options such as `--mission`,
+`--capability`, `--population`, `--geography`, and `--topic`.
+
+Controlled values are:
+
+- `mission`: `everyday-ai-empowerment`
+- `capability`: `sensing`, `verification`
+- `population`: `households`, `workers`, `communities`, `institutions`
+- `geography`: `local`, `national`, `global`
+- `topic`: `addiction`, `ai-control`, `compute-governance`,
+  `consumer-protection`, `energy-resilience`, `household-costs`,
+  `mental-health`, `research-evaluation`, `supply-chains`
 
 ## Create an opportunity
 
@@ -54,8 +66,8 @@ python3 tooling/foundry.py index
 python3 tooling/foundry.py export-catalog --include-drafts
 ```
 
-The index command regenerates marked Markdown views by domain, problem cluster,
-lifecycle state, and solution pattern.
+The index command regenerates marked Markdown views by domain, controlled
+facet, problem cluster, lifecycle state, and solution pattern.
 
 The production website omits `--include-drafts`, so only records whose
 `visibility` is `public` are published. Generated catalog output is build data;

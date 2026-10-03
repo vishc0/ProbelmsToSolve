@@ -6,11 +6,20 @@
 
 - **Domain:** [AI Safety and Control](../domains/ai-safety-and-control/README.md) — active
 - **Domain:** [Compute Governance](../domains/compute-governance/README.md) — active
+- **Domain:** [Digital Systems and AI](../domains/digital-systems-and-ai/README.md) — active
+- **Domain:** [Education and Skills](../domains/education-and-skills/README.md) — active
 - **Domain:** [Energy and Infrastructure](../domains/energy-and-infrastructure/README.md) — active
+- **Domain:** [Environment and Resilience](../domains/environment-and-resilience/README.md) — active
 - **Domain:** [Epistemics and Research Evaluation](../domains/epistemics-and-research-eval/README.md) — active
-- **Domain:** [Everyday AI Empowerment](../domains/everyday-ai-empowerment/README.md) — active
-- **Domain:** [Surveillance and Sensing](../domains/surveillance-and-sensing/README.md) — active
+- **Domain:** [Food and Agriculture](../domains/food-and-agriculture/README.md) — active
+- **Domain:** [Health and Care](../domains/health-and-care/README.md) — active
+- **Domain:** [Household Finance and Consumer Protection](../domains/household-finance-and-consumer-protection/README.md) — active
+- **Domain:** [Housing and Built Environment](../domains/housing-and-built-environment/README.md) — active
+- **Domain:** [Manufacturing and Industry](../domains/manufacturing-and-industry/README.md) — active
+- **Domain:** [Public Services, Justice, and Governance](../domains/public-services-justice-and-governance/README.md) — active
+- **Domain:** [Trade and Economic Cooperation](../domains/trade-and-economic-cooperation/README.md) — active
 - **Domain:** [Verification and Auditing](../domains/verification-and-auditing/README.md) — active
+- **Domain:** [Work and Livelihoods](../domains/work-and-livelihoods/README.md) — active
 
 ## Candidate
 

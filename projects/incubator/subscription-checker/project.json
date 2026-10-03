@@ -6,7 +6,7 @@
   "summary": "A local tool that identifies recurring charges and price changes in user-supplied statement CSV files.",
   "status": "incubator",
   "visibility": "draft",
-  "domain": "everyday-ai-empowerment",
+  "domain": "household-finance-and-consumer-protection",
   "owner": "Unassigned",
   "source_opportunity": "catalog/opportunities/household-recurring-cost-clarity/opportunity.json",
   "steward": {
@@ -15,7 +15,7 @@
   },
   "links": {
     "domains": [
-      "everyday-ai-empowerment"
+      "household-finance-and-consumer-protection"
     ],
     "opportunities": [
       "household-recurring-cost-clarity"
@@ -25,6 +25,7 @@
       "pattern-local-document-auditor"
     ]
   },
+  "facets": {"mission": ["everyday-ai-empowerment"], "capability": [], "population": ["households"], "geography": ["local"], "topic": ["consumer-protection", "household-costs"]},
   "provenance": {
     "label": "human-direction",
     "sources": [

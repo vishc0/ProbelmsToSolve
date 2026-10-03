@@ -24,6 +24,7 @@
       "pattern-open-data-observatory"
     ]
   },
+  "facets": {"mission": [], "capability": ["verification"], "population": ["institutions"], "geography": ["global"], "topic": []},
   "provenance": {
     "label": "human-decision",
     "sources": [

@@ -12,6 +12,7 @@
       "energy-and-infrastructure"
     ]
   },
+  "facets": {"mission": [], "capability": [], "population": ["communities"], "geography": [], "topic": ["energy-resilience"]},
   "provenance": {
     "label": "ai-inference",
     "sources": [

@@ -90,3 +90,10 @@ supporting documentation when useful.
 - Use schema `2.0` for the common ownership, provenance, link, visibility, and
   timestamp envelope while accepting legacy `1.0` opportunity/project records
   during migration.
+
+## 2026-10-03 — 14-sector domain taxonomy with subdomains, facets, and aliases
+
+- Use 14 top-level sector domains, with technical AI governance and evaluation
+  areas nested under `digital-systems-and-ai`.
+- Represent mission, capability, population, geography, and topic as controlled
+  facets; preserve retired domain IDs as compatibility aliases.

@@ -9,13 +9,15 @@
   "owner": "Unassigned",
   "links": {
     "domains": [
-      "everyday-ai-empowerment"
+      "household-finance-and-consumer-protection",
+      "digital-systems-and-ai"
     ],
     "clusters": [
       "cluster-fine-print",
       "cluster-attention-capture"
     ]
   },
+  "facets": {"mission": ["everyday-ai-empowerment"], "capability": [], "population": ["households"], "geography": ["local"], "topic": ["consumer-protection"]},
   "provenance": {
     "label": "ai-inference",
     "sources": [

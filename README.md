@@ -49,6 +49,9 @@ This creates one self-contained folder in `catalog/opportunities/`. Complete its
 Problems, cross-domain root-cause clusters, and reusable solution patterns use
 the parallel `new-problem`, `new-cluster`, and `new-solution` commands. Run
 each command with `--help` for its repeatable `--domain` and `--cluster` links.
+Use sector domains for context and controlled facet options for mission,
+capability, population, geography, and topic. Domain aliases preserve old links;
+new records should use the canonical IDs in `catalog/domains/README.md`.
 
 ## Turn an opportunity into a project
 

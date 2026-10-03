@@ -117,7 +117,7 @@ class FoundryToolTests(unittest.TestCase):
     def test_indexes_are_generated_from_records(self) -> None:
         self.create_complete_chain()
         outputs = foundry.generate_indexes(self.root)
-        self.assertEqual(len(outputs), 5)
+        self.assertEqual(len(outputs), 6)
         domain_index = (self.root / "catalog/indexes/by-domain.md").read_text()
         cluster_index = (self.root / "catalog/indexes/by-cluster.md").read_text()
         solution_index = (self.root / "catalog/indexes/by-solution.md").read_text()
@@ -125,6 +125,81 @@ class FoundryToolTests(unittest.TestCase):
         self.assertIn("Audit Simulator", domain_index)
         self.assertIn("Unverifiable Results", cluster_index)
         self.assertIn("Audit Simulator", solution_index)
+
+    def test_accepts_domain_alias_and_indexes_under_canonical_domain(self) -> None:
+        foundry.new_domain(
+            self.args(
+                id="digital-systems-and-ai",
+                title="Digital Systems and AI",
+                alias=["surveillance-and-sensing"],
+                parent=None,
+            ),
+            self.root,
+        )
+        foundry.new_problem(
+            self.args(
+                id="legacy-sensing-problem",
+                title="Legacy Sensing Problem",
+                domain=["surveillance-and-sensing"],
+                cluster=[],
+                capability=["sensing"],
+            ),
+            self.root,
+        )
+        self.assertEqual(foundry.validate(self.root), [])
+        foundry.generate_indexes(self.root)
+        domain_index = (self.root / "catalog/indexes/by-domain.md").read_text()
+        self.assertIn("Legacy Sensing Problem", domain_index)
+
+    def test_repository_has_fourteen_top_level_domains(self) -> None:
+        records, errors = foundry.read_records(REPOSITORY_ROOT)
+        self.assertEqual(errors, [])
+        top_level = {
+            domain_id
+            for domain_id, value in records["domain"].items()
+            if value.get("parent") is None
+        }
+        self.assertEqual(
+            top_level,
+            {
+                "health-and-care",
+                "housing-and-built-environment",
+                "education-and-skills",
+                "work-and-livelihoods",
+                "household-finance-and-consumer-protection",
+                "food-and-agriculture",
+                "mobility-logistics-and-supply-chains",
+                "energy-and-infrastructure",
+                "manufacturing-and-industry",
+                "trade-and-economic-cooperation",
+                "public-services-justice-and-governance",
+                "global-cooperation-and-peace",
+                "environment-and-resilience",
+                "digital-systems-and-ai",
+            },
+        )
+
+    def test_rejects_unknown_facet_value(self) -> None:
+        self.create_domain()
+        path = self.root / "catalog/domains/compute-governance/domain.json"
+        domain = json.loads(path.read_text())
+        domain["facets"]["capability"] = ["uncontrolled-value"]
+        path.write_text(json.dumps(domain))
+        errors = foundry.validate(self.root)
+        self.assertTrue(
+            any("unknown capability facet values: uncontrolled-value" in e for e in errors)
+        )
+
+    def test_accepts_domain_parent(self) -> None:
+        self.create_domain("digital-systems-and-ai")
+        foundry.new_domain(
+            self.args(
+                id="compute-governance",
+                parent="digital-systems-and-ai",
+            ),
+            self.root,
+        )
+        self.assertEqual(foundry.validate(self.root), [])
 
     def test_reports_dangling_reference(self) -> None:
         self.create_domain()

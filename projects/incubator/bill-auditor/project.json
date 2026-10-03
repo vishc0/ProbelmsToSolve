@@ -6,7 +6,7 @@
   "summary": "A local-first tool that explains household bills, checks visible charges, and drafts user-reviewed questions or disputes.",
   "status": "incubator",
   "visibility": "draft",
-  "domain": "everyday-ai-empowerment",
+  "domain": "household-finance-and-consumer-protection",
   "owner": "Unassigned",
   "source_opportunity": "catalog/opportunities/household-document-auditor/opportunity.json",
   "steward": {
@@ -15,7 +15,8 @@
   },
   "links": {
     "domains": [
-      "everyday-ai-empowerment"
+      "household-finance-and-consumer-protection",
+      "health-and-care"
     ],
     "opportunities": [
       "household-document-auditor"
@@ -24,6 +25,7 @@
       "pattern-local-document-auditor"
     ]
   },
+  "facets": {"mission": ["everyday-ai-empowerment"], "capability": ["verification"], "population": ["households"], "geography": ["local"], "topic": ["consumer-protection", "household-costs"]},
   "provenance": {
     "label": "human-decision",
     "sources": [

@@ -14,7 +14,7 @@
 | `catalog/clusters/` | Cross-domain groups of problems with a shared root cause |
 | `catalog/opportunities/` | Prioritized, evidence-backed opportunity briefs |
 | `catalog/solutions/` | Reusable solution patterns shared by projects |
-| `catalog/indexes/` | Generated views by domain, cluster, state, and solution |
+| `catalog/indexes/` | Generated views by domain, facet, cluster, state, and solution |
 | `projects/incubator/` | Selected concepts being validated |
 | `projects/reference/` | Verified, reusable reference projects |
 | `templates/` | Canonical artifact and project templates |
@@ -38,6 +38,13 @@
 - Treat the JSON manifests as canonical records. Generated indexes are
   navigation only and carry a “do not edit” marker.
 - Use globally unique IDs across record types so links remain unambiguous.
+- Use the 14 sector domains listed in `catalog/domains/README.md`. The technical
+  areas `compute-governance`, `verification-and-auditing`,
+  `ai-safety-and-control`, and `epistemics-and-research-eval` are subdomains of
+  `digital-systems-and-ai` via the domain `parent` field.
+- Classify cross-sector dimensions with controlled `mission`, `capability`,
+  `population`, `geography`, and `topic` facets. Domain `aliases` preserve old
+  links; new records should use canonical domain IDs.
 - Link the model as
   `domain -> problem -> cluster -> opportunity -> project -> solution pattern`;
   a record may have several links where the real relationship is many-to-many.
@@ -57,7 +64,7 @@
 ## Record contract
 
 Every current record has an ID, title, summary, lifecycle status, visibility,
-owner, typed links, provenance label, and created/updated dates. Schema `2.0`
+owner, typed links, controlled facets, provenance label, and created/updated dates. Schema `2.0`
 uses this common envelope. The validator still accepts schema `1.0`
 opportunity/project manifests created by the earlier CLI so concurrent work can
 merge safely.

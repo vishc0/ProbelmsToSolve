@@ -7,7 +7,10 @@
   "status": "active",
   "visibility": "public",
   "owner": "Unassigned",
+  "parent": null,
+  "aliases": [],
   "links": {},
+  "facets": {"mission": [], "capability": [], "population": [], "geography": [], "topic": ["energy-resilience"]},
   "provenance": {"label": "human-direction", "sources": []},
   "created": "2026-10-03",
   "updated": "2026-10-03"

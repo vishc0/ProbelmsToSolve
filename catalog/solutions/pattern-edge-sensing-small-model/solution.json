@@ -15,6 +15,7 @@
       "cluster-brittle-essential-systems"
     ]
   },
+  "facets": {"mission": [], "capability": ["sensing"], "population": ["communities"], "geography": ["local"], "topic": ["energy-resilience"]},
   "provenance": {
     "label": "ai-inference",
     "sources": [

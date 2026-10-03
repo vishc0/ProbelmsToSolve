@@ -11,6 +11,7 @@
     "domains": ["compute-governance", "verification-and-auditing"],
     "clusters": ["opaque-compute-activity"]
   },
+  "facets": {"mission": [], "capability": ["verification"], "population": ["institutions"], "geography": ["global"], "topic": ["compute-governance"]},
   "provenance": {
     "label": "ai-inference",
     "sources": [

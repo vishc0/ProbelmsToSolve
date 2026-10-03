@@ -5,6 +5,7 @@
 - Solution ID: `{{SOLUTION_ID}}`
 - Status: candidate
 - Owner: {{OWNER_NAME}}
+- Domains and facets: see `solution.json`
 
 ## Applicable context
 

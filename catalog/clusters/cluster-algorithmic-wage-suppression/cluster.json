@@ -9,9 +9,10 @@
   "owner": "Unassigned",
   "links": {
     "domains": [
-      "everyday-ai-empowerment"
+      "work-and-livelihoods"
     ]
   },
+  "facets": {"mission": ["everyday-ai-empowerment"], "capability": [], "population": ["workers"], "geography": [], "topic": []},
   "provenance": {
     "label": "ai-inference",
     "sources": [

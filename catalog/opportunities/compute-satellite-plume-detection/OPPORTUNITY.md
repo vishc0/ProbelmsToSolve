@@ -4,7 +4,8 @@
 
 - Status: proposed
 - Owner: Chippa Vishweshwar
-- Domain: surveillance-and-sensing
+- Domain: energy-and-infrastructure
+- Capability facet: sensing
 - Horizon: 2027–2032
 - Recommendation: Develop an open data pipeline for ingesting public satellite thermal infrared (TIR) imagery (Landsat 8/9, Sentinel) to detect anomalous hydrological heat plumes associated with subterranean or clandestine compute clusters.
 

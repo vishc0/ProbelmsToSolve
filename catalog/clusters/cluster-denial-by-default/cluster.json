@@ -9,9 +9,11 @@
   "owner": "Unassigned",
   "links": {
     "domains": [
-      "everyday-ai-empowerment"
+      "household-finance-and-consumer-protection",
+      "public-services-justice-and-governance"
     ]
   },
+  "facets": {"mission": ["everyday-ai-empowerment"], "capability": [], "population": ["households"], "geography": [], "topic": ["consumer-protection"]},
   "provenance": {
     "label": "ai-inference",
     "sources": [

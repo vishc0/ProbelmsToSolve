@@ -15,6 +15,7 @@
       "cluster-fragmented-systems-no-owner"
     ]
   },
+  "facets": {"mission": [], "capability": [], "population": ["institutions"], "geography": ["global"], "topic": ["supply-chains"]},
   "provenance": {
     "label": "ai-inference",
     "sources": [

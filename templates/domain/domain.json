@@ -7,7 +7,16 @@
   "status": "active",
   "visibility": "draft",
   "owner": "{{OWNER_NAME}}",
+  "parent": null,
+  "aliases": [],
   "links": {},
+  "facets": {
+    "mission": [],
+    "capability": [],
+    "population": [],
+    "geography": [],
+    "topic": []
+  },
   "provenance": {
     "label": "human-direction",
     "sources": []

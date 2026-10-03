@@ -8,8 +8,8 @@
    uncertainties, risks, actors, and enabling capabilities.
 4. **Challenge** — search for corroboration, contradiction, prior art, and
    implementation evidence.
-5. **Expand** — register problems once, connect them to domains, and group
-   shared root causes into cross-domain problem clusters.
+5. **Expand** — register problems once, connect them to sector domains and
+   controlled facets, and group shared root causes into cross-domain clusters.
 6. **Steer** — human branches, combines, prunes, ranks, or redirects the tree.
 7. **Assess** — form opportunities around one or more clusters and score value,
    evidence, feasibility, differentiation, cost, risk, and time-to-learning.
@@ -49,5 +49,6 @@ Every material assertion uses one of:
 
 The manifests, rather than prose indexes, own lifecycle and relationships.
 Run `python3 tooling/foundry.py validate` to catch duplicate IDs and dangling
-domain, cluster, opportunity, project, or solution links. Run
+domain (including aliases), cluster, opportunity, project, or solution links,
+and rejects unknown facet values. Run
 `python3 tooling/foundry.py index` to rebuild browsable catalog views.

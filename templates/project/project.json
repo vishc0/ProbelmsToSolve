@@ -22,6 +22,10 @@
     ],
     "solutions": []
   },
+  "facets": {
+    "mission": [], "capability": [], "population": [],
+    "geography": [], "topic": []
+  },
   "provenance": {
     "label": "human-decision",
     "sources": [

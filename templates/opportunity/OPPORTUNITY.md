@@ -7,6 +7,7 @@
 - Status: proposed
 - Owner: {{OWNER_NAME}}
 - Domain: {{DOMAIN_ID}}
+- Facets: mission / capability / population / geography / topic
 - Horizon:
 - Recommendation:
 
