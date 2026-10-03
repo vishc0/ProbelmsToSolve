@@ -682,9 +682,19 @@ def generate_indexes(root: Path) -> list[Path]:
         for facet in sorted(allowed):
             entries = []
             for kind, items in records.items():
-                for value in sorted(items.values(), key=lambda item: item["title"]):
-                    if facet in value.get("facets", {}).get(facet_type, []):
-                        entries.append(item_line(root, outputs[5], kind, value))
+                matches = [
+                    value
+                    for value in sorted(items.values(), key=lambda item: item["title"])
+                    if facet in value.get("facets", {}).get(facet_type, [])
+                ]
+                if matches:
+                    linked = "; ".join(
+                        f"[{value['title']}]"
+                        f"({record_link(root, outputs[5], value)})"
+                        f" ({value['status']})"
+                        for value in matches
+                    )
+                    entries.append(f"- **{kind.title()}:** {linked}")
             if entries:
                 facet_sections.append(
                     (f"{facet_type.title()}: {facet.replace('-', ' ').title()}", entries)

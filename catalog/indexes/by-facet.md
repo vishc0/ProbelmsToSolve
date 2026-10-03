@@ -4,167 +4,117 @@
 
 ## Mission: Everyday Ai Empowerment
 
-- **Cluster:** [Algorithmic Wage Suppression](../clusters/cluster-algorithmic-wage-suppression/CLUSTER.md) — hypothesis
-- **Cluster:** [Attention Capture](../clusters/cluster-attention-capture/CLUSTER.md) — hypothesis
-- **Cluster:** [Concentrated Gatekeepers](../clusters/cluster-concentrated-gatekeepers/CLUSTER.md) — hypothesis
-- **Cluster:** [Denial by Default](../clusters/cluster-denial-by-default/CLUSTER.md) — hypothesis
-- **Cluster:** [Easy In, Hard Out](../clusters/cluster-easy-in-hard-out/CLUSTER.md) — hypothesis
-- **Cluster:** [Fine Print and Information Asymmetry](../clusters/cluster-fine-print/CLUSTER.md) — hypothesis
-- **Cluster:** [Junk Fees and Unbundling](../clusters/cluster-junk-fees-and-unbundling/CLUSTER.md) — hypothesis
-- **Cluster:** [Paperwork Churn](../clusters/cluster-paperwork-churn/CLUSTER.md) — hypothesis
-- **Opportunity:** [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) — incubating
-- **Opportunity:** [Household Recurring Cost Clarity](../opportunities/household-recurring-cost-clarity/OPPORTUNITY.md) — incubating
-- **Solution:** [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) — candidate
-- **Solution:** [Personal Safety Guard](../solutions/pattern-personal-safety-guard/SOLUTION.md) — candidate
-- **Solution:** [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) — candidate
-- **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) — incubator
-- **Project:** [Subscription Checker](../../projects/incubator/subscription-checker/project.json) — incubator
+- **Cluster:** [Algorithmic Wage Suppression](../clusters/cluster-algorithmic-wage-suppression/CLUSTER.md) (hypothesis); [Attention Capture](../clusters/cluster-attention-capture/CLUSTER.md) (hypothesis); [Concentrated Gatekeepers](../clusters/cluster-concentrated-gatekeepers/CLUSTER.md) (hypothesis); [Denial by Default](../clusters/cluster-denial-by-default/CLUSTER.md) (hypothesis); [Easy In, Hard Out](../clusters/cluster-easy-in-hard-out/CLUSTER.md) (hypothesis); [Fine Print and Information Asymmetry](../clusters/cluster-fine-print/CLUSTER.md) (hypothesis); [Junk Fees and Unbundling](../clusters/cluster-junk-fees-and-unbundling/CLUSTER.md) (hypothesis); [Paperwork Churn](../clusters/cluster-paperwork-churn/CLUSTER.md) (hypothesis)
+- **Opportunity:** [Cultivation Incentives and Grower Networks](../opportunities/cultivation-incentives-and-grower-networks/OPPORTUNITY.md) (proposed); [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) (proposed); [Fisheries Livelihoods](../opportunities/fisheries-livelihoods/OPPORTUNITY.md) (proposed); [Food Machinery Maintenance](../opportunities/food-machinery-maintenance/OPPORTUNITY.md) (proposed); [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) (incubating); [Household Recurring Cost Clarity](../opportunities/household-recurring-cost-clarity/OPPORTUNITY.md) (incubating); [Open Seed Systems](../opportunities/open-seed-systems/OPPORTUNITY.md) (proposed); [Soil and Mineral Atlas](../opportunities/soil-mineral-atlas/OPPORTUNITY.md) (proposed); [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) (proposed); [Water Systems Stewardship](../opportunities/water-systems-stewardship/OPPORTUNITY.md) (proposed); [Workforce Reskilling for Infrastructure Build-out](../opportunities/workforce-reskilling-for-buildout/OPPORTUNITY.md) (incubating)
+- **Solution:** [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) (candidate); [Personal Safety Guard](../solutions/pattern-personal-safety-guard/SOLUTION.md) (candidate); [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) (candidate)
+- **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) (incubator); [Skills Bridge](../../projects/incubator/skills-bridge/PROJECT.md) (incubator); [Subscription Checker](../../projects/incubator/subscription-checker/project.json) (incubator)
 
 ## Capability: Sensing
 
-- **Solution:** [Edge Sensing and Small Model](../solutions/pattern-edge-sensing-small-model/SOLUTION.md) — candidate
-- **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) — candidate
+- **Solution:** [Edge Sensing and Small Model](../solutions/pattern-edge-sensing-small-model/SOLUTION.md) (candidate); [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) (candidate)
 
 ## Capability: Verification
 
-- **Domain:** [Epistemics and Research Evaluation](../domains/epistemics-and-research-eval/README.md) — active
-- **Domain:** [Verification and Auditing](../domains/verification-and-auditing/README.md) — active
-- **Problem:** [Unverifiable Compute Execution](../problems/unverifiable-compute-execution/PROBLEM.md) — documented
-- **Cluster:** [Opaque Compute Activity](../clusters/opaque-compute-activity/CLUSTER.md) — hypothesis
-- **Cluster:** [Weak Global Cooperation](../clusters/cluster-weak-global-cooperation/CLUSTER.md) — hypothesis
-- **Opportunity:** [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) — incubating
-- **Opportunity:** [Open Governance Observatory](../opportunities/open-governance-observatory/OPPORTUNITY.md) — incubating
-- **Opportunity:** [Packet Verification Auditing](../opportunities/verification-packet-auditing/OPPORTUNITY.md) — incubating
-- **Solution:** [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) — candidate
-- **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) — candidate
-- **Solution:** [Random Recomputation Audit](../solutions/random-recomputation-audit/SOLUTION.md) — candidate
-- **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) — incubator
-- **Project:** [Packet Verification Simulator](../../projects/incubator/packet-verification-sim/PROJECT.md) — incubator
-- **Project:** [Veto and Commitment Tracker](../../projects/incubator/veto-commitment-tracker/PROJECT.md) — incubator
+- **Domain:** [Epistemics and Research Evaluation](../domains/epistemics-and-research-eval/README.md) (active); [Verification and Auditing](../domains/verification-and-auditing/README.md) (active)
+- **Problem:** [Unverifiable Compute Execution](../problems/unverifiable-compute-execution/PROBLEM.md) (documented)
+- **Cluster:** [Opaque Compute Activity](../clusters/opaque-compute-activity/CLUSTER.md) (hypothesis); [Weak Global Cooperation](../clusters/cluster-weak-global-cooperation/CLUSTER.md) (hypothesis)
+- **Opportunity:** [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) (incubating); [Open Governance Observatory](../opportunities/open-governance-observatory/OPPORTUNITY.md) (incubating); [Packet Verification Auditing](../opportunities/verification-packet-auditing/OPPORTUNITY.md) (incubating)
+- **Solution:** [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) (candidate); [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) (candidate); [Random Recomputation Audit](../solutions/random-recomputation-audit/SOLUTION.md) (candidate)
+- **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) (incubator); [Packet Verification Simulator](../../projects/incubator/packet-verification-sim/PROJECT.md) (incubator); [Veto and Commitment Tracker](../../projects/incubator/veto-commitment-tracker/PROJECT.md) (incubator)
 
 ## Population: Communities
 
-- **Cluster:** [Attention Capture](../clusters/cluster-attention-capture/CLUSTER.md) — hypothesis
-- **Cluster:** [Brittle Essential Systems](../clusters/cluster-brittle-essential-systems/CLUSTER.md) — hypothesis
-- **Cluster:** [Concentrated Gatekeepers](../clusters/cluster-concentrated-gatekeepers/CLUSTER.md) — hypothesis
-- **Cluster:** [Paperwork Churn](../clusters/cluster-paperwork-churn/CLUSTER.md) — hypothesis
-- **Solution:** [Edge Sensing and Small Model](../solutions/pattern-edge-sensing-small-model/SOLUTION.md) — candidate
+- **Cluster:** [Attention Capture](../clusters/cluster-attention-capture/CLUSTER.md) (hypothesis); [Brittle Essential Systems](../clusters/cluster-brittle-essential-systems/CLUSTER.md) (hypothesis); [Concentrated Gatekeepers](../clusters/cluster-concentrated-gatekeepers/CLUSTER.md) (hypothesis); [Paperwork Churn](../clusters/cluster-paperwork-churn/CLUSTER.md) (hypothesis)
+- **Opportunity:** [Cultivation Incentives and Grower Networks](../opportunities/cultivation-incentives-and-grower-networks/OPPORTUNITY.md) (proposed); [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) (proposed); [Fisheries Livelihoods](../opportunities/fisheries-livelihoods/OPPORTUNITY.md) (proposed); [Food Machinery Maintenance](../opportunities/food-machinery-maintenance/OPPORTUNITY.md) (proposed); [Open Seed Systems](../opportunities/open-seed-systems/OPPORTUNITY.md) (proposed); [Soil and Mineral Atlas](../opportunities/soil-mineral-atlas/OPPORTUNITY.md) (proposed); [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) (proposed); [Water Systems Stewardship](../opportunities/water-systems-stewardship/OPPORTUNITY.md) (proposed); [Workforce Reskilling for Infrastructure Build-out](../opportunities/workforce-reskilling-for-buildout/OPPORTUNITY.md) (incubating)
+- **Solution:** [Edge Sensing and Small Model](../solutions/pattern-edge-sensing-small-model/SOLUTION.md) (candidate)
+- **Project:** [Skills Bridge](../../projects/incubator/skills-bridge/PROJECT.md) (incubator)
 
 ## Population: Households
 
-- **Cluster:** [Concentrated Gatekeepers](../clusters/cluster-concentrated-gatekeepers/CLUSTER.md) — hypothesis
-- **Cluster:** [Denial by Default](../clusters/cluster-denial-by-default/CLUSTER.md) — hypothesis
-- **Cluster:** [Easy In, Hard Out](../clusters/cluster-easy-in-hard-out/CLUSTER.md) — hypothesis
-- **Cluster:** [Fine Print and Information Asymmetry](../clusters/cluster-fine-print/CLUSTER.md) — hypothesis
-- **Cluster:** [Junk Fees and Unbundling](../clusters/cluster-junk-fees-and-unbundling/CLUSTER.md) — hypothesis
-- **Cluster:** [Paperwork Churn](../clusters/cluster-paperwork-churn/CLUSTER.md) — hypothesis
-- **Opportunity:** [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) — incubating
-- **Opportunity:** [Household Recurring Cost Clarity](../opportunities/household-recurring-cost-clarity/OPPORTUNITY.md) — incubating
-- **Solution:** [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) — candidate
-- **Solution:** [Personal Safety Guard](../solutions/pattern-personal-safety-guard/SOLUTION.md) — candidate
-- **Solution:** [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) — candidate
-- **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) — incubator
-- **Project:** [Subscription Checker](../../projects/incubator/subscription-checker/project.json) — incubator
+- **Cluster:** [Concentrated Gatekeepers](../clusters/cluster-concentrated-gatekeepers/CLUSTER.md) (hypothesis); [Denial by Default](../clusters/cluster-denial-by-default/CLUSTER.md) (hypothesis); [Easy In, Hard Out](../clusters/cluster-easy-in-hard-out/CLUSTER.md) (hypothesis); [Fine Print and Information Asymmetry](../clusters/cluster-fine-print/CLUSTER.md) (hypothesis); [Junk Fees and Unbundling](../clusters/cluster-junk-fees-and-unbundling/CLUSTER.md) (hypothesis); [Paperwork Churn](../clusters/cluster-paperwork-churn/CLUSTER.md) (hypothesis)
+- **Opportunity:** [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) (proposed); [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) (incubating); [Household Recurring Cost Clarity](../opportunities/household-recurring-cost-clarity/OPPORTUNITY.md) (incubating); [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) (proposed); [Water Systems Stewardship](../opportunities/water-systems-stewardship/OPPORTUNITY.md) (proposed)
+- **Solution:** [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) (candidate); [Personal Safety Guard](../solutions/pattern-personal-safety-guard/SOLUTION.md) (candidate); [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) (candidate)
+- **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) (incubator); [Subscription Checker](../../projects/incubator/subscription-checker/project.json) (incubator)
 
 ## Population: Institutions
 
-- **Domain:** [Epistemics and Research Evaluation](../domains/epistemics-and-research-eval/README.md) — active
-- **Domain:** [Global Cooperation and Peace](../domains/global-cooperation-and-peace/README.md) — proposed
-- **Problem:** [Unverifiable Compute Execution](../problems/unverifiable-compute-execution/PROBLEM.md) — documented
-- **Cluster:** [Fragmented Systems with No System Owner](../clusters/cluster-fragmented-systems-no-owner/CLUSTER.md) — hypothesis
-- **Cluster:** [Opaque Compute Activity](../clusters/opaque-compute-activity/CLUSTER.md) — hypothesis
-- **Cluster:** [Weak Global Cooperation](../clusters/cluster-weak-global-cooperation/CLUSTER.md) — hypothesis
-- **Opportunity:** [Open Governance Observatory](../opportunities/open-governance-observatory/OPPORTUNITY.md) — incubating
-- **Opportunity:** [Packet Verification Auditing](../opportunities/verification-packet-auditing/OPPORTUNITY.md) — incubating
-- **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) — candidate
-- **Solution:** [Open Interoperability](../solutions/pattern-open-interoperability/SOLUTION.md) — candidate
-- **Solution:** [Random Recomputation Audit](../solutions/random-recomputation-audit/SOLUTION.md) — candidate
-- **Project:** [Packet Verification Simulator](../../projects/incubator/packet-verification-sim/PROJECT.md) — incubator
-- **Project:** [Veto and Commitment Tracker](../../projects/incubator/veto-commitment-tracker/PROJECT.md) — incubator
+- **Domain:** [Epistemics and Research Evaluation](../domains/epistemics-and-research-eval/README.md) (active); [Global Cooperation and Peace](../domains/global-cooperation-and-peace/README.md) (proposed)
+- **Problem:** [Unverifiable Compute Execution](../problems/unverifiable-compute-execution/PROBLEM.md) (documented)
+- **Cluster:** [Fragmented Systems with No System Owner](../clusters/cluster-fragmented-systems-no-owner/CLUSTER.md) (hypothesis); [Opaque Compute Activity](../clusters/opaque-compute-activity/CLUSTER.md) (hypothesis); [Weak Global Cooperation](../clusters/cluster-weak-global-cooperation/CLUSTER.md) (hypothesis)
+- **Opportunity:** [Cultivation Incentives and Grower Networks](../opportunities/cultivation-incentives-and-grower-networks/OPPORTUNITY.md) (proposed); [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) (proposed); [Fisheries Livelihoods](../opportunities/fisheries-livelihoods/OPPORTUNITY.md) (proposed); [Open Governance Observatory](../opportunities/open-governance-observatory/OPPORTUNITY.md) (incubating); [Open Seed Systems](../opportunities/open-seed-systems/OPPORTUNITY.md) (proposed); [Packet Verification Auditing](../opportunities/verification-packet-auditing/OPPORTUNITY.md) (incubating); [Soil and Mineral Atlas](../opportunities/soil-mineral-atlas/OPPORTUNITY.md) (proposed); [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) (proposed); [Water Systems Stewardship](../opportunities/water-systems-stewardship/OPPORTUNITY.md) (proposed)
+- **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) (candidate); [Open Interoperability](../solutions/pattern-open-interoperability/SOLUTION.md) (candidate); [Random Recomputation Audit](../solutions/random-recomputation-audit/SOLUTION.md) (candidate)
+- **Project:** [Packet Verification Simulator](../../projects/incubator/packet-verification-sim/PROJECT.md) (incubator); [Veto and Commitment Tracker](../../projects/incubator/veto-commitment-tracker/PROJECT.md) (incubator)
 
 ## Population: Workers
 
-- **Cluster:** [Algorithmic Wage Suppression](../clusters/cluster-algorithmic-wage-suppression/CLUSTER.md) — hypothesis
-- **Solution:** [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) — candidate
+- **Cluster:** [Algorithmic Wage Suppression](../clusters/cluster-algorithmic-wage-suppression/CLUSTER.md) (hypothesis)
+- **Opportunity:** [Cultivation Incentives and Grower Networks](../opportunities/cultivation-incentives-and-grower-networks/OPPORTUNITY.md) (proposed); [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) (proposed); [Fisheries Livelihoods](../opportunities/fisheries-livelihoods/OPPORTUNITY.md) (proposed); [Food Machinery Maintenance](../opportunities/food-machinery-maintenance/OPPORTUNITY.md) (proposed); [Open Seed Systems](../opportunities/open-seed-systems/OPPORTUNITY.md) (proposed); [Soil and Mineral Atlas](../opportunities/soil-mineral-atlas/OPPORTUNITY.md) (proposed); [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) (proposed); [Water Systems Stewardship](../opportunities/water-systems-stewardship/OPPORTUNITY.md) (proposed); [Workforce Reskilling for Infrastructure Build-out](../opportunities/workforce-reskilling-for-buildout/OPPORTUNITY.md) (incubating)
+- **Solution:** [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) (candidate)
+- **Project:** [Skills Bridge](../../projects/incubator/skills-bridge/PROJECT.md) (incubator)
 
 ## Geography: Global
 
-- **Domain:** [Global Cooperation and Peace](../domains/global-cooperation-and-peace/README.md) — proposed
-- **Problem:** [Unverifiable Compute Execution](../problems/unverifiable-compute-execution/PROBLEM.md) — documented
-- **Cluster:** [Opaque Compute Activity](../clusters/opaque-compute-activity/CLUSTER.md) — hypothesis
-- **Cluster:** [Weak Global Cooperation](../clusters/cluster-weak-global-cooperation/CLUSTER.md) — hypothesis
-- **Opportunity:** [Open Governance Observatory](../opportunities/open-governance-observatory/OPPORTUNITY.md) — incubating
-- **Opportunity:** [Packet Verification Auditing](../opportunities/verification-packet-auditing/OPPORTUNITY.md) — incubating
-- **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) — candidate
-- **Solution:** [Open Interoperability](../solutions/pattern-open-interoperability/SOLUTION.md) — candidate
-- **Solution:** [Random Recomputation Audit](../solutions/random-recomputation-audit/SOLUTION.md) — candidate
-- **Project:** [Packet Verification Simulator](../../projects/incubator/packet-verification-sim/PROJECT.md) — incubator
-- **Project:** [Veto and Commitment Tracker](../../projects/incubator/veto-commitment-tracker/PROJECT.md) — incubator
+- **Domain:** [Global Cooperation and Peace](../domains/global-cooperation-and-peace/README.md) (proposed)
+- **Problem:** [Unverifiable Compute Execution](../problems/unverifiable-compute-execution/PROBLEM.md) (documented)
+- **Cluster:** [Opaque Compute Activity](../clusters/opaque-compute-activity/CLUSTER.md) (hypothesis); [Weak Global Cooperation](../clusters/cluster-weak-global-cooperation/CLUSTER.md) (hypothesis)
+- **Opportunity:** [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) (proposed); [Fisheries Livelihoods](../opportunities/fisheries-livelihoods/OPPORTUNITY.md) (proposed); [Open Governance Observatory](../opportunities/open-governance-observatory/OPPORTUNITY.md) (incubating); [Open Seed Systems](../opportunities/open-seed-systems/OPPORTUNITY.md) (proposed); [Packet Verification Auditing](../opportunities/verification-packet-auditing/OPPORTUNITY.md) (incubating); [Soil and Mineral Atlas](../opportunities/soil-mineral-atlas/OPPORTUNITY.md) (proposed); [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) (proposed)
+- **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) (candidate); [Open Interoperability](../solutions/pattern-open-interoperability/SOLUTION.md) (candidate); [Random Recomputation Audit](../solutions/random-recomputation-audit/SOLUTION.md) (candidate)
+- **Project:** [Packet Verification Simulator](../../projects/incubator/packet-verification-sim/PROJECT.md) (incubator); [Veto and Commitment Tracker](../../projects/incubator/veto-commitment-tracker/PROJECT.md) (incubator)
 
 ## Geography: Local
 
-- **Opportunity:** [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) — incubating
-- **Opportunity:** [Household Recurring Cost Clarity](../opportunities/household-recurring-cost-clarity/OPPORTUNITY.md) — incubating
-- **Solution:** [Edge Sensing and Small Model](../solutions/pattern-edge-sensing-small-model/SOLUTION.md) — candidate
-- **Solution:** [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) — candidate
-- **Solution:** [Personal Safety Guard](../solutions/pattern-personal-safety-guard/SOLUTION.md) — candidate
-- **Solution:** [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) — candidate
-- **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) — incubator
-- **Project:** [Subscription Checker](../../projects/incubator/subscription-checker/project.json) — incubator
+- **Opportunity:** [Cultivation Incentives and Grower Networks](../opportunities/cultivation-incentives-and-grower-networks/OPPORTUNITY.md) (proposed); [Fisheries Livelihoods](../opportunities/fisheries-livelihoods/OPPORTUNITY.md) (proposed); [Food Machinery Maintenance](../opportunities/food-machinery-maintenance/OPPORTUNITY.md) (proposed); [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) (incubating); [Household Recurring Cost Clarity](../opportunities/household-recurring-cost-clarity/OPPORTUNITY.md) (incubating); [Soil and Mineral Atlas](../opportunities/soil-mineral-atlas/OPPORTUNITY.md) (proposed); [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) (proposed); [Water Systems Stewardship](../opportunities/water-systems-stewardship/OPPORTUNITY.md) (proposed); [Workforce Reskilling for Infrastructure Build-out](../opportunities/workforce-reskilling-for-buildout/OPPORTUNITY.md) (incubating)
+- **Solution:** [Edge Sensing and Small Model](../solutions/pattern-edge-sensing-small-model/SOLUTION.md) (candidate); [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) (candidate); [Personal Safety Guard](../solutions/pattern-personal-safety-guard/SOLUTION.md) (candidate); [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) (candidate)
+- **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) (incubator); [Skills Bridge](../../projects/incubator/skills-bridge/PROJECT.md) (incubator); [Subscription Checker](../../projects/incubator/subscription-checker/project.json) (incubator)
+
+## Geography: National
+
+- **Opportunity:** [Cultivation Incentives and Grower Networks](../opportunities/cultivation-incentives-and-grower-networks/OPPORTUNITY.md) (proposed); [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) (proposed); [Fisheries Livelihoods](../opportunities/fisheries-livelihoods/OPPORTUNITY.md) (proposed); [Food Machinery Maintenance](../opportunities/food-machinery-maintenance/OPPORTUNITY.md) (proposed); [Open Seed Systems](../opportunities/open-seed-systems/OPPORTUNITY.md) (proposed); [Soil and Mineral Atlas](../opportunities/soil-mineral-atlas/OPPORTUNITY.md) (proposed); [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) (proposed); [Water Systems Stewardship](../opportunities/water-systems-stewardship/OPPORTUNITY.md) (proposed); [Workforce Reskilling for Infrastructure Build-out](../opportunities/workforce-reskilling-for-buildout/OPPORTUNITY.md) (incubating)
+- **Project:** [Skills Bridge](../../projects/incubator/skills-bridge/PROJECT.md) (incubator)
 
 ## Topic: Ai Control
 
-- **Domain:** [AI Safety and Control](../domains/ai-safety-and-control/README.md) — active
+- **Domain:** [AI Safety and Control](../domains/ai-safety-and-control/README.md) (active)
 
 ## Topic: Compute Governance
 
-- **Domain:** [Compute Governance](../domains/compute-governance/README.md) — active
-- **Problem:** [Unverifiable Compute Execution](../problems/unverifiable-compute-execution/PROBLEM.md) — documented
-- **Cluster:** [Opaque Compute Activity](../clusters/opaque-compute-activity/CLUSTER.md) — hypothesis
-- **Opportunity:** [Packet Verification Auditing](../opportunities/verification-packet-auditing/OPPORTUNITY.md) — incubating
-- **Solution:** [Random Recomputation Audit](../solutions/random-recomputation-audit/SOLUTION.md) — candidate
-- **Project:** [Packet Verification Simulator](../../projects/incubator/packet-verification-sim/PROJECT.md) — incubator
+- **Domain:** [Compute Governance](../domains/compute-governance/README.md) (active)
+- **Problem:** [Unverifiable Compute Execution](../problems/unverifiable-compute-execution/PROBLEM.md) (documented)
+- **Cluster:** [Opaque Compute Activity](../clusters/opaque-compute-activity/CLUSTER.md) (hypothesis)
+- **Opportunity:** [Packet Verification Auditing](../opportunities/verification-packet-auditing/OPPORTUNITY.md) (incubating)
+- **Solution:** [Random Recomputation Audit](../solutions/random-recomputation-audit/SOLUTION.md) (candidate)
+- **Project:** [Packet Verification Simulator](../../projects/incubator/packet-verification-sim/PROJECT.md) (incubator)
 
 ## Topic: Consumer Protection
 
-- **Cluster:** [Concentrated Gatekeepers](../clusters/cluster-concentrated-gatekeepers/CLUSTER.md) — hypothesis
-- **Cluster:** [Denial by Default](../clusters/cluster-denial-by-default/CLUSTER.md) — hypothesis
-- **Cluster:** [Easy In, Hard Out](../clusters/cluster-easy-in-hard-out/CLUSTER.md) — hypothesis
-- **Cluster:** [Fine Print and Information Asymmetry](../clusters/cluster-fine-print/CLUSTER.md) — hypothesis
-- **Cluster:** [Junk Fees and Unbundling](../clusters/cluster-junk-fees-and-unbundling/CLUSTER.md) — hypothesis
-- **Opportunity:** [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) — incubating
-- **Opportunity:** [Household Recurring Cost Clarity](../opportunities/household-recurring-cost-clarity/OPPORTUNITY.md) — incubating
-- **Solution:** [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) — candidate
-- **Solution:** [Personal Safety Guard](../solutions/pattern-personal-safety-guard/SOLUTION.md) — candidate
-- **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) — incubator
-- **Project:** [Subscription Checker](../../projects/incubator/subscription-checker/project.json) — incubator
+- **Cluster:** [Concentrated Gatekeepers](../clusters/cluster-concentrated-gatekeepers/CLUSTER.md) (hypothesis); [Denial by Default](../clusters/cluster-denial-by-default/CLUSTER.md) (hypothesis); [Easy In, Hard Out](../clusters/cluster-easy-in-hard-out/CLUSTER.md) (hypothesis); [Fine Print and Information Asymmetry](../clusters/cluster-fine-print/CLUSTER.md) (hypothesis); [Junk Fees and Unbundling](../clusters/cluster-junk-fees-and-unbundling/CLUSTER.md) (hypothesis)
+- **Opportunity:** [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) (proposed); [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) (incubating); [Household Recurring Cost Clarity](../opportunities/household-recurring-cost-clarity/OPPORTUNITY.md) (incubating); [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) (proposed)
+- **Solution:** [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) (candidate); [Personal Safety Guard](../solutions/pattern-personal-safety-guard/SOLUTION.md) (candidate)
+- **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) (incubator); [Subscription Checker](../../projects/incubator/subscription-checker/project.json) (incubator)
 
 ## Topic: Energy Resilience
 
-- **Domain:** [Energy and Infrastructure](../domains/energy-and-infrastructure/README.md) — active
-- **Cluster:** [Brittle Essential Systems](../clusters/cluster-brittle-essential-systems/CLUSTER.md) — hypothesis
-- **Solution:** [Edge Sensing and Small Model](../solutions/pattern-edge-sensing-small-model/SOLUTION.md) — candidate
-- **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) — candidate
-- **Solution:** [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) — candidate
+- **Domain:** [Energy and Infrastructure](../domains/energy-and-infrastructure/README.md) (active)
+- **Cluster:** [Brittle Essential Systems](../clusters/cluster-brittle-essential-systems/CLUSTER.md) (hypothesis)
+- **Opportunity:** [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) (proposed); [Food Machinery Maintenance](../opportunities/food-machinery-maintenance/OPPORTUNITY.md) (proposed); [Water Systems Stewardship](../opportunities/water-systems-stewardship/OPPORTUNITY.md) (proposed); [Workforce Reskilling for Infrastructure Build-out](../opportunities/workforce-reskilling-for-buildout/OPPORTUNITY.md) (incubating)
+- **Solution:** [Edge Sensing and Small Model](../solutions/pattern-edge-sensing-small-model/SOLUTION.md) (candidate); [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) (candidate); [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) (candidate)
+- **Project:** [Skills Bridge](../../projects/incubator/skills-bridge/PROJECT.md) (incubator)
 
 ## Topic: Household Costs
 
-- **Cluster:** [Easy In, Hard Out](../clusters/cluster-easy-in-hard-out/CLUSTER.md) — hypothesis
-- **Cluster:** [Junk Fees and Unbundling](../clusters/cluster-junk-fees-and-unbundling/CLUSTER.md) — hypothesis
-- **Opportunity:** [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) — incubating
-- **Opportunity:** [Household Recurring Cost Clarity](../opportunities/household-recurring-cost-clarity/OPPORTUNITY.md) — incubating
-- **Solution:** [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) — candidate
-- **Solution:** [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) — candidate
-- **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) — incubator
-- **Project:** [Subscription Checker](../../projects/incubator/subscription-checker/project.json) — incubator
+- **Cluster:** [Easy In, Hard Out](../clusters/cluster-easy-in-hard-out/CLUSTER.md) (hypothesis); [Junk Fees and Unbundling](../clusters/cluster-junk-fees-and-unbundling/CLUSTER.md) (hypothesis)
+- **Opportunity:** [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) (incubating); [Household Recurring Cost Clarity](../opportunities/household-recurring-cost-clarity/OPPORTUNITY.md) (incubating)
+- **Solution:** [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) (candidate); [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) (candidate)
+- **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) (incubator); [Subscription Checker](../../projects/incubator/subscription-checker/project.json) (incubator)
 
 ## Topic: Research Evaluation
 
-- **Domain:** [Epistemics and Research Evaluation](../domains/epistemics-and-research-eval/README.md) — active
+- **Domain:** [Epistemics and Research Evaluation](../domains/epistemics-and-research-eval/README.md) (active)
+- **Opportunity:** [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) (proposed)
 
 ## Topic: Supply Chains
 
-- **Domain:** [Mobility, Logistics, and Supply Chains](../domains/mobility-logistics-and-supply-chains/README.md) — proposed
-- **Cluster:** [Fragmented Systems with No System Owner](../clusters/cluster-fragmented-systems-no-owner/CLUSTER.md) — hypothesis
-- **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) — candidate
-- **Solution:** [Open Interoperability](../solutions/pattern-open-interoperability/SOLUTION.md) — candidate
+- **Domain:** [Mobility, Logistics, and Supply Chains](../domains/mobility-logistics-and-supply-chains/README.md) (proposed)
+- **Cluster:** [Fragmented Systems with No System Owner](../clusters/cluster-fragmented-systems-no-owner/CLUSTER.md) (hypothesis)
+- **Opportunity:** [Cultivation Incentives and Grower Networks](../opportunities/cultivation-incentives-and-grower-networks/OPPORTUNITY.md) (proposed); [Fisheries Livelihoods](../opportunities/fisheries-livelihoods/OPPORTUNITY.md) (proposed); [Food Machinery Maintenance](../opportunities/food-machinery-maintenance/OPPORTUNITY.md) (proposed); [Open Seed Systems](../opportunities/open-seed-systems/OPPORTUNITY.md) (proposed); [Soil and Mineral Atlas](../opportunities/soil-mineral-atlas/OPPORTUNITY.md) (proposed)
+- **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) (candidate); [Open Interoperability](../solutions/pattern-open-interoperability/SOLUTION.md) (candidate)

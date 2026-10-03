@@ -1,0 +1,58 @@
+{
+  "schema_version": "2.0",
+  "record_type": "opportunity",
+  "id": "workforce-reskilling-for-buildout",
+  "title": "Workforce Reskilling for Infrastructure Build-out",
+  "summary": "A private local skills bridge helps experienced workers map into accredited pathways for essential infrastructure trades.",
+  "status": "incubating",
+  "visibility": "draft",
+  "domain": "work-and-livelihoods",
+  "owner": "Unassigned",
+  "project_id": null,
+  "links": {
+    "domains": [
+      "work-and-livelihoods",
+      "education-and-skills",
+      "energy-and-infrastructure"
+    ],
+    "clusters": [
+      "cluster-algorithmic-wage-suppression",
+      "cluster-brittle-essential-systems"
+    ],
+    "projects": [
+      "skills-bridge"
+    ],
+    "solutions": [
+      "pattern-local-document-auditor"
+    ]
+  },
+  "facets": {
+    "mission": [
+      "everyday-ai-empowerment"
+    ],
+    "capability": [],
+    "population": [
+      "workers",
+      "communities"
+    ],
+    "geography": [
+      "local",
+      "national"
+    ],
+    "topic": [
+      "energy-resilience"
+    ]
+  },
+  "provenance": {
+    "label": "human-direction",
+    "sources": [
+      "CloudSetup/scratchpad/coordination/PROJECT-AREAS-from-todos.md"
+    ]
+  },
+  "website": {
+    "slug": "workforce-reskilling-for-buildout",
+    "featured": false
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

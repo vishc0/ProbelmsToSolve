@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.0",
+  "record_type": "opportunity",
+  "id": "fisheries-livelihoods",
+  "title": "Fisheries Livelihoods",
+  "summary": "Transparent catch and income tools support fishers while evidence compares public, cooperative, and co-management models.",
+  "status": "proposed",
+  "visibility": "draft",
+  "domain": "food-and-agriculture",
+  "owner": "Unassigned",
+  "project_id": null,
+  "links": {
+    "domains": [
+      "food-and-agriculture",
+      "work-and-livelihoods"
+    ],
+    "clusters": [
+      "cluster-concentrated-gatekeepers",
+      "cluster-algorithmic-wage-suppression",
+      "cluster-brittle-essential-systems"
+    ],
+    "projects": [],
+    "solutions": [
+      "pattern-open-data-observatory",
+      "pattern-edge-sensing-small-model"
+    ]
+  },
+  "facets": {
+    "mission": [
+      "everyday-ai-empowerment"
+    ],
+    "capability": [],
+    "population": [
+      "workers",
+      "communities",
+      "institutions"
+    ],
+    "geography": [
+      "local",
+      "national",
+      "global"
+    ],
+    "topic": [
+      "supply-chains"
+    ]
+  },
+  "provenance": {
+    "label": "human-direction",
+    "sources": [
+      "CloudSetup/scratchpad/coordination/PROJECT-AREAS-from-todos.md"
+    ]
+  },
+  "website": {
+    "slug": "fisheries-livelihoods",
+    "featured": false
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

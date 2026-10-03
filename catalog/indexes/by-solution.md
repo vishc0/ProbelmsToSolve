@@ -12,6 +12,7 @@ Combine inexpensive local sensors with a small model and explicit human oversigh
 Use local models and deterministic rules to extract facts, compare public rules, and draft user-reviewed responses.
 
 - **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) — incubator
+- **Project:** [Skills Bridge](../../projects/incubator/skills-bridge/PROJECT.md) — incubator
 - **Project:** [Subscription Checker](../../projects/incubator/subscription-checker/project.json) — incubator
 
 ## Open Data Observatory

@@ -56,11 +56,13 @@
 - **Opportunity:** [Household Recurring Cost Clarity](../opportunities/household-recurring-cost-clarity/OPPORTUNITY.md) — incubating
 - **Opportunity:** [Open Governance Observatory](../opportunities/open-governance-observatory/OPPORTUNITY.md) — incubating
 - **Opportunity:** [Packet Verification Auditing](../opportunities/verification-packet-auditing/OPPORTUNITY.md) — incubating
+- **Opportunity:** [Workforce Reskilling for Infrastructure Build-out](../opportunities/workforce-reskilling-for-buildout/OPPORTUNITY.md) — incubating
 
 ## Incubator
 
 - **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) — incubator
 - **Project:** [Packet Verification Simulator](../../projects/incubator/packet-verification-sim/PROJECT.md) — incubator
+- **Project:** [Skills Bridge](../../projects/incubator/skills-bridge/PROJECT.md) — incubator
 - **Project:** [Subscription Checker](../../projects/incubator/subscription-checker/project.json) — incubator
 - **Project:** [Veto and Commitment Tracker](../../projects/incubator/veto-commitment-tracker/PROJECT.md) — incubator
 
@@ -68,3 +70,11 @@
 
 - **Domain:** [Global Cooperation and Peace](../domains/global-cooperation-and-peace/README.md) — proposed
 - **Domain:** [Mobility, Logistics, and Supply Chains](../domains/mobility-logistics-and-supply-chains/README.md) — proposed
+- **Opportunity:** [Cultivation Incentives and Grower Networks](../opportunities/cultivation-incentives-and-grower-networks/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Fisheries Livelihoods](../opportunities/fisheries-livelihoods/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Food Machinery Maintenance](../opportunities/food-machinery-maintenance/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Open Seed Systems](../opportunities/open-seed-systems/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Soil and Mineral Atlas](../opportunities/soil-mineral-atlas/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Water Systems Stewardship](../opportunities/water-systems-stewardship/OPPORTUNITY.md) — proposed

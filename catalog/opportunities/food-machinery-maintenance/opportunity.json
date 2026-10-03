@@ -1,0 +1,56 @@
+{
+  "schema_version": "2.0",
+  "record_type": "opportunity",
+  "id": "food-machinery-maintenance",
+  "title": "Food Machinery Maintenance",
+  "summary": "Extend the existing SME machinery copilot concept for safe, affordable maintenance of food and seed production equipment.",
+  "status": "proposed",
+  "visibility": "draft",
+  "domain": "food-and-agriculture",
+  "owner": "Unassigned",
+  "project_id": null,
+  "links": {
+    "domains": [
+      "food-and-agriculture",
+      "manufacturing-and-industry"
+    ],
+    "clusters": [
+      "cluster-brittle-essential-systems"
+    ],
+    "projects": [],
+    "solutions": [
+      "pattern-edge-sensing-small-model"
+    ]
+  },
+  "facets": {
+    "mission": [
+      "everyday-ai-empowerment"
+    ],
+    "capability": [],
+    "population": [
+      "workers",
+      "communities"
+    ],
+    "geography": [
+      "local",
+      "national"
+    ],
+    "topic": [
+      "energy-resilience",
+      "supply-chains"
+    ]
+  },
+  "provenance": {
+    "label": "human-direction",
+    "sources": [
+      "CloudSetup/scratchpad/coordination/PROJECT-AREAS-from-todos.md",
+      "CloudSetup/scratchpad/research/energy-manufacturing-food-draft.md"
+    ]
+  },
+  "website": {
+    "slug": "food-machinery-maintenance",
+    "featured": false
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

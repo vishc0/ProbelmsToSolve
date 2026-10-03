@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "record_type": "opportunity",
+  "id": "universal-knowledge-ai-internet",
+  "title": "Universal Knowledge, AI, and Internet Access",
+  "summary": "Open access measurement and offline knowledge with local AI help communities compare paths to affordable basic digital access.",
+  "status": "proposed",
+  "visibility": "draft",
+  "domain": "digital-systems-and-ai",
+  "owner": "Unassigned",
+  "project_id": null,
+  "links": {
+    "domains": [
+      "digital-systems-and-ai",
+      "education-and-skills",
+      "public-services-justice-and-governance"
+    ],
+    "clusters": [
+      "cluster-concentrated-gatekeepers",
+      "cluster-weak-global-cooperation"
+    ],
+    "projects": [],
+    "solutions": [
+      "pattern-open-data-observatory",
+      "pattern-open-interoperability"
+    ]
+  },
+  "facets": {
+    "mission": [
+      "everyday-ai-empowerment"
+    ],
+    "capability": [],
+    "population": [
+      "households",
+      "workers",
+      "communities",
+      "institutions"
+    ],
+    "geography": [
+      "local",
+      "national",
+      "global"
+    ],
+    "topic": [
+      "consumer-protection",
+      "research-evaluation"
+    ]
+  },
+  "provenance": {
+    "label": "human-direction",
+    "sources": [
+      "CloudSetup/scratchpad/coordination/PROJECT-AREAS-from-todos.md"
+    ]
+  },
+  "website": {
+    "slug": "universal-knowledge-ai-internet",
+    "featured": false
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "2.0",
+  "record_type": "project",
+  "id": "skills-bridge",
+  "title": "Skills Bridge",
+  "summary": "A private local tutor maps worker experience to trade competencies and accredited learning pathways.",
+  "status": "incubator",
+  "visibility": "draft",
+  "domain": "work-and-livelihoods",
+  "owner": "Unassigned",
+  "source_opportunity": "catalog/opportunities/workforce-reskilling-for-buildout/opportunity.json",
+  "steward": {
+    "name": "Unassigned",
+    "github": ""
+  },
+  "links": {
+    "domains": [
+      "work-and-livelihoods",
+      "education-and-skills",
+      "energy-and-infrastructure"
+    ],
+    "opportunities": [
+      "workforce-reskilling-for-buildout"
+    ],
+    "solutions": [
+      "pattern-local-document-auditor"
+    ]
+  },
+  "facets": {
+    "mission": [
+      "everyday-ai-empowerment"
+    ],
+    "capability": [],
+    "population": [
+      "communities",
+      "workers"
+    ],
+    "geography": [
+      "local",
+      "national"
+    ],
+    "topic": [
+      "energy-resilience"
+    ]
+  },
+  "provenance": {
+    "label": "human-decision",
+    "sources": [
+      "catalog/opportunities/workforce-reskilling-for-buildout/opportunity.json"
+    ]
+  },
+  "website": {
+    "slug": "skills-bridge",
+    "featured": false
+  },
+  "repository": {
+    "path": "projects/incubator/skills-bridge",
+    "license": "TBD"
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

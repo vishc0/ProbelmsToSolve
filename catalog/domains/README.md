@@ -11,6 +11,7 @@ Top-level sector domain.
 Compatibility aliases: `everyday-ai-empowerment`, `surveillance-and-sensing`.
 
 - **Cluster:** [Attention Capture](../clusters/cluster-attention-capture/CLUSTER.md) — hypothesis
+- **Opportunity:** [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) — proposed
 - **Solution:** [Personal Safety Guard](../solutions/pattern-personal-safety-guard/SOLUTION.md) — candidate
 
 ## [Education and Skills](education-and-skills/README.md)
@@ -19,6 +20,9 @@ Learning, teaching, training, and equitable access to useful skills.
 
 Top-level sector domain.
 
+- **Opportunity:** [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Workforce Reskilling for Infrastructure Build-out](../opportunities/workforce-reskilling-for-buildout/OPPORTUNITY.md) — incubating
+- **Project:** [Skills Bridge](../../projects/incubator/skills-bridge/PROJECT.md) — incubator
 
 ## [Energy and Infrastructure](energy-and-infrastructure/README.md)
 
@@ -27,6 +31,9 @@ Energy systems, grids, datacenters, and resilient physical infrastructure.
 Top-level sector domain.
 
 - **Cluster:** [Brittle Essential Systems](../clusters/cluster-brittle-essential-systems/CLUSTER.md) — hypothesis
+- **Opportunity:** [Water Systems Stewardship](../opportunities/water-systems-stewardship/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Workforce Reskilling for Infrastructure Build-out](../opportunities/workforce-reskilling-for-buildout/OPPORTUNITY.md) — incubating
+- **Project:** [Skills Bridge](../../projects/incubator/skills-bridge/PROJECT.md) — incubator
 - **Solution:** [Edge Sensing and Small Model](../solutions/pattern-edge-sensing-small-model/SOLUTION.md) — candidate
 - **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) — candidate
 - **Solution:** [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) — candidate
@@ -37,6 +44,8 @@ Environmental stewardship, adaptation, recovery, and resilience to shared risks.
 
 Top-level sector domain.
 
+- **Opportunity:** [Soil and Mineral Atlas](../opportunities/soil-mineral-atlas/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Water Systems Stewardship](../opportunities/water-systems-stewardship/OPPORTUNITY.md) — proposed
 
 ## [Food and Agriculture](food-and-agriculture/README.md)
 
@@ -44,6 +53,11 @@ Reliable, sustainable food production, distribution, access, and stewardship.
 
 Top-level sector domain.
 
+- **Opportunity:** [Cultivation Incentives and Grower Networks](../opportunities/cultivation-incentives-and-grower-networks/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Fisheries Livelihoods](../opportunities/fisheries-livelihoods/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Food Machinery Maintenance](../opportunities/food-machinery-maintenance/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Open Seed Systems](../opportunities/open-seed-systems/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Soil and Mineral Atlas](../opportunities/soil-mineral-atlas/OPPORTUNITY.md) — proposed
 
 ## [Global Cooperation and Peace](global-cooperation-and-peace/README.md)
 
@@ -62,7 +76,9 @@ Health, wellbeing, caregiving, and access to safe, understandable care.
 
 Top-level sector domain.
 
+- **Opportunity:** [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) — proposed
 - **Opportunity:** [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) — incubating
+- **Opportunity:** [Soil and Mineral Atlas](../opportunities/soil-mineral-atlas/OPPORTUNITY.md) — proposed
 - **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) — incubator
 - **Solution:** [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) — candidate
 
@@ -98,6 +114,7 @@ Safe, productive, resilient production and industrial capability.
 
 Top-level sector domain.
 
+- **Opportunity:** [Food Machinery Maintenance](../opportunities/food-machinery-maintenance/OPPORTUNITY.md) — proposed
 
 ## [Mobility, Logistics, and Supply Chains](mobility-logistics-and-supply-chains/README.md)
 
@@ -118,6 +135,10 @@ Top-level sector domain.
 - **Cluster:** [Concentrated Gatekeepers](../clusters/cluster-concentrated-gatekeepers/CLUSTER.md) — hypothesis
 - **Cluster:** [Denial by Default](../clusters/cluster-denial-by-default/CLUSTER.md) — hypothesis
 - **Cluster:** [Paperwork Churn](../clusters/cluster-paperwork-churn/CLUSTER.md) — hypothesis
+- **Opportunity:** [Cultivation Incentives and Grower Networks](../opportunities/cultivation-incentives-and-grower-networks/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Water Systems Stewardship](../opportunities/water-systems-stewardship/OPPORTUNITY.md) — proposed
 
 ## [Trade and Economic Cooperation](trade-and-economic-cooperation/README.md)
 
@@ -125,6 +146,7 @@ Fair, resilient exchange and economic coordination across organizations and bord
 
 Top-level sector domain.
 
+- **Opportunity:** [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) — proposed
 
 ## [Work and Livelihoods](work-and-livelihoods/README.md)
 
@@ -133,6 +155,9 @@ Fair work, income, worker agency, and sustainable livelihoods.
 Top-level sector domain.
 
 - **Cluster:** [Algorithmic Wage Suppression](../clusters/cluster-algorithmic-wage-suppression/CLUSTER.md) — hypothesis
+- **Opportunity:** [Fisheries Livelihoods](../opportunities/fisheries-livelihoods/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Workforce Reskilling for Infrastructure Build-out](../opportunities/workforce-reskilling-for-buildout/OPPORTUNITY.md) — incubating
+- **Project:** [Skills Bridge](../../projects/incubator/skills-bridge/PROJECT.md) — incubator
 - **Solution:** [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) — candidate
 
 ## [AI Safety and Control](ai-safety-and-control/README.md)

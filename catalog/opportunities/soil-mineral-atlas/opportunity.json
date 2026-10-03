@@ -1,0 +1,58 @@
+{
+  "schema_version": "2.0",
+  "record_type": "opportunity",
+  "id": "soil-mineral-atlas",
+  "title": "Soil and Mineral Atlas",
+  "summary": "An open evidence atlas connects soil conditions, crop nutrient uptake, and context-specific restoration practices.",
+  "status": "proposed",
+  "visibility": "draft",
+  "domain": "food-and-agriculture",
+  "owner": "Unassigned",
+  "project_id": null,
+  "links": {
+    "domains": [
+      "food-and-agriculture",
+      "environment-and-resilience",
+      "health-and-care"
+    ],
+    "clusters": [
+      "cluster-brittle-essential-systems"
+    ],
+    "projects": [],
+    "solutions": [
+      "pattern-open-data-observatory",
+      "pattern-edge-sensing-small-model"
+    ]
+  },
+  "facets": {
+    "mission": [
+      "everyday-ai-empowerment"
+    ],
+    "capability": [],
+    "population": [
+      "workers",
+      "communities",
+      "institutions"
+    ],
+    "geography": [
+      "local",
+      "national",
+      "global"
+    ],
+    "topic": [
+      "supply-chains"
+    ]
+  },
+  "provenance": {
+    "label": "human-direction",
+    "sources": [
+      "CloudSetup/scratchpad/coordination/PROJECT-AREAS-from-todos.md"
+    ]
+  },
+  "website": {
+    "slug": "soil-mineral-atlas",
+    "featured": false
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

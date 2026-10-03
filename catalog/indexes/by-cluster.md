@@ -6,6 +6,8 @@
 
 Opaque automated systems set individualized pay and work access without meaningful accountability.
 
+- **Opportunity:** [Fisheries Livelihoods](../opportunities/fisheries-livelihoods/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Workforce Reskilling for Infrastructure Build-out](../opportunities/workforce-reskilling-for-buildout/OPPORTUNITY.md) — incubating
 - **Solution:** [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) — candidate
 
 ## Attention Capture
@@ -18,6 +20,14 @@ Engagement systems monetize impulses and sustained attention rather than support
 
 Capital-intensive essential systems concentrate control and retain single points of failure.
 
+- **Opportunity:** [Cultivation Incentives and Grower Networks](../opportunities/cultivation-incentives-and-grower-networks/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Fisheries Livelihoods](../opportunities/fisheries-livelihoods/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Food Machinery Maintenance](../opportunities/food-machinery-maintenance/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Open Seed Systems](../opportunities/open-seed-systems/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Soil and Mineral Atlas](../opportunities/soil-mineral-atlas/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Water Systems Stewardship](../opportunities/water-systems-stewardship/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Workforce Reskilling for Infrastructure Build-out](../opportunities/workforce-reskilling-for-buildout/OPPORTUNITY.md) — incubating
 - **Solution:** [Edge Sensing and Small Model](../solutions/pattern-edge-sensing-small-model/SOLUTION.md) — candidate
 - **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) — candidate
 
@@ -25,11 +35,17 @@ Capital-intensive essential systems concentrate control and retain single points
 
 A small number of providers control essential access, leaving people with few practical alternatives.
 
+- **Opportunity:** [Cultivation Incentives and Grower Networks](../opportunities/cultivation-incentives-and-grower-networks/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Fisheries Livelihoods](../opportunities/fisheries-livelihoods/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Open Seed Systems](../opportunities/open-seed-systems/OPPORTUNITY.md) — proposed
+- **Opportunity:** [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) — proposed
 
 ## Denial by Default
 
 Institutions benefit when people abandon valid disputes after an initial denial.
 
+- **Opportunity:** [Essential Services Models](../opportunities/essential-services-models/OPPORTUNITY.md) — proposed
 - **Opportunity:** [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) — incubating
 - **Solution:** [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) — candidate
 
@@ -54,6 +70,7 @@ Organizations hold the data, specialist knowledge, and pricing visibility needed
 
 Each participant optimizes its own layer while no accountable actor improves the end-to-end system.
 
+- **Opportunity:** [Water Systems Stewardship](../opportunities/water-systems-stewardship/OPPORTUNITY.md) — proposed
 - **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) — candidate
 - **Solution:** [Open Interoperability](../solutions/pattern-open-interoperability/SOLUTION.md) — candidate
 
@@ -78,6 +95,7 @@ Procedural complexity removes eligible people from benefits and services through
 Institutional vetoes, weighted power, and stalled dispute mechanisms prevent timely collective action.
 
 - **Opportunity:** [Open Governance Observatory](../opportunities/open-governance-observatory/OPPORTUNITY.md) — incubating
+- **Opportunity:** [Universal Knowledge, AI, and Internet Access](../opportunities/universal-knowledge-ai-internet/OPPORTUNITY.md) — proposed
 - **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) — candidate
 
 ## Opaque Compute Activity
