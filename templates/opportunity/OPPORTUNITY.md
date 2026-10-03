@@ -1,10 +1,12 @@
-# Opportunity: <name>
+# Opportunity: {{OPPORTUNITY_TITLE}}
+
+> {{OPPORTUNITY_SUMMARY}}
 
 ## Decision summary
 
 - Status: proposed
-- Owner:
-- Domain:
+- Owner: {{OWNER_NAME}}
+- Domain: {{DOMAIN_ID}}
 - Horizon:
 - Recommendation:
 

@@ -1,4 +1,12 @@
-# Project: <name>
+# Project: {{PROJECT_TITLE}}
+
+> {{PROJECT_SUMMARY}}
+
+- Project ID: `{{PROJECT_ID}}`
+- Domain: `{{DOMAIN_ID}}`
+- Originating opportunity:
+  `catalog/opportunities/{{OPPORTUNITY_ID}}/opportunity.json`
+- Initial steward: {{STEWARD_NAME}}
 
 ## Outcome
 
@@ -29,3 +37,6 @@
 ## Startup extension path
 
 ## Provenance
+
+- Template version: 1.0
+- Created: {{TODAY}}

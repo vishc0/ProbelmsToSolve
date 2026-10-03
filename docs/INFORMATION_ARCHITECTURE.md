@@ -14,6 +14,7 @@
 | `projects/incubator/` | Selected concepts being validated |
 | `projects/reference/` | Verified, reusable reference projects |
 | `templates/` | Canonical artifact and project templates |
+| `website/` | Contract between repository records and public site pages |
 | `setup/` | Free-resource catalog and reproducible hybrid-node setup |
 | `tooling/` | Repository automation and generators |
 | `tests/` | Repository-wide policy, schema, and integration tests |

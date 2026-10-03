@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "id": "{{PROJECT_ID}}",
+  "title": "{{PROJECT_TITLE}}",
+  "summary": "{{PROJECT_SUMMARY}}",
+  "status": "incubator",
+  "visibility": "draft",
+  "domain": "{{DOMAIN_ID}}",
+  "source_opportunity": "catalog/opportunities/{{OPPORTUNITY_ID}}/opportunity.json",
+  "steward": {
+    "name": "{{STEWARD_NAME}}",
+    "github": ""
+  },
+  "website": {
+    "slug": "{{PROJECT_ID}}",
+    "featured": false
+  },
+  "repository": {
+    "path": "projects/incubator/{{PROJECT_ID}}",
+    "license": "TBD"
+  },
+  "updated": "{{TODAY}}"
+}

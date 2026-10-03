@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "{{OPPORTUNITY_ID}}",
+  "title": "{{OPPORTUNITY_TITLE}}",
+  "summary": "{{OPPORTUNITY_SUMMARY}}",
+  "status": "proposed",
+  "visibility": "draft",
+  "domain": "{{DOMAIN_ID}}",
+  "owner": "{{OWNER_NAME}}",
+  "project_id": null,
+  "website": {
+    "slug": "{{OPPORTUNITY_ID}}",
+    "featured": false
+  },
+  "updated": "{{TODAY}}"
+}
