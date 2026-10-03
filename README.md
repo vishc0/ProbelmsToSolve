@@ -1,7 +1,7 @@
 # CloudSetup
 
-CloudSetup turns research ideas into opportunities that teams can adopt as
-runnable projects.
+CloudSetup turns real community problems and credible research into safe,
+affordable projects that teams can adopt, sponsor, and maintain.
 
 ## Start here
 
@@ -65,6 +65,8 @@ hold a separate copy that must be maintained manually. See the complete
 ## Deeper documentation
 
 - [Mission and business need](PROJECT_INTENT.md)
+- [Prior art and project positioning](docs/PRIOR_ART_AND_POSITIONING.md)
+- [Markdown document standard](docs/DOCUMENT_STANDARDS.md)
 - [System architecture](docs/ARCHITECTURE.md)
 - [Research-to-project stages](docs/RESEARCH_TO_PROJECT_PIPELINE.md)
 - [Content ownership and repository hygiene](docs/CONTENT_GOVERNANCE.md)

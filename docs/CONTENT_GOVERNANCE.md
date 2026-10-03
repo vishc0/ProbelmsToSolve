@@ -10,6 +10,8 @@ artifacts. Temporary work belongs in the ignored `scratchpad/` directory.
 | Information | Canonical location |
 |---|---|
 | Mission and business need | `PROJECT_INTENT.md` |
+| Prior art and project positioning | `docs/PRIOR_ART_AND_POSITIONING.md` |
+| Markdown size and splitting rules | `docs/DOCUMENT_STANDARDS.md` |
 | Product requirements | `docs/PRODUCT_REQUIREMENTS.md` |
 | System architecture | `docs/ARCHITECTURE.md` |
 | Repository layout | `docs/INFORMATION_ARCHITECTURE.md` |
@@ -42,3 +44,5 @@ Before moving information into tracked files:
 4. Update that owner in place and link to it from consumers.
 5. Remove contradictory or superseded duplication.
 6. Validate links, schemas, and secrets scanning.
+7. Keep every Markdown file within the 200-line limit in
+   `docs/DOCUMENT_STANDARDS.md`.

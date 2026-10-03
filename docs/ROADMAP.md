@@ -4,14 +4,22 @@
 
 - Establish project intent, repository organization, operating policy, source
   registry, and artifact templates.
-- Confirm the initial AI 2040 source and its permitted use.
+- Establish public-interest, accessibility, sponsorship, privacy, and high-stakes
+  safety boundaries.
+- Treat AI 2040 as an initial case study while expanding discovery to documented
+  present-day community problems.
 
 ## Phase 1 — Local vertical slice
 
-- Ingest one source without paid infrastructure.
-- Extract a small set of traceable claims and opportunities.
+- Select one low-risk, high-friction everyday problem with an identifiable user
+  community and measurable benefit.
+- Audit existing products, research, organizations, standards, and open-source
+  projects before authorizing new development.
+- Ingest supporting sources without paid infrastructure.
+- Produce a traceable `CONTRIBUTE`, `EXTEND`, `CREATE`, `OBSERVE`, or `DECLINE`
+  decision.
 - Provide a basic local web workbench for human steering.
-- Produce one approved opportunity brief and project blueprint.
+- Produce an opportunity brief and project blueprint only if a real gap remains.
 
 ## Phase 2 — First runnable reference project
 
@@ -30,4 +38,5 @@
 
 - Publish approved reference projects.
 - Add feedback, versioning, contribution, quality, and refresh workflows.
+- Add transparent project sponsorship and community-interest protections.
 - Expand source coverage based on portfolio value rather than volume.

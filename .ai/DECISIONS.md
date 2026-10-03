@@ -48,3 +48,25 @@ supporting documentation when useful.
   programmatic burst-GPU benchmark.
 - Build the MVP evidence package before pursuing larger startup or research
   credits.
+
+## 2026-10-03 — Community-benefit project focus
+
+- Broaden the mission from expanding AI-futures papers to solving documented,
+  present-day problems affecting ordinary people and communities.
+- Treat AI 2040 as a case study and source of foresight, not the product boundary.
+- Cover physical, digital, and sustainable commercial AI while making public
+  benefit, accessibility, affordability, privacy, consent, and human agency the
+  governing tests.
+- Audit existing efforts before development and issue one of `CONTRIBUTE`,
+  `EXTEND`, `CREATE`, `OBSERVE`, or `DECLINE` for each candidate.
+- Permit sponsorship only with disclosed interests, reviewable milestones,
+  protected community interests, and clear access, licensing, and stewardship
+  terms.
+
+## 2026-10-03 — Markdown size limit
+
+- Limit every hand-authored Markdown file to 200 lines.
+- Treat 60 lines as the target for indexes and operational notes, 120 for normal
+  documents, and 200 only for major canonical specifications.
+- Split by stable subject and link to one canonical owner instead of duplicating
+  content.

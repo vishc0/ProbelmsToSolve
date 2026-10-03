@@ -2,9 +2,11 @@
 
 ## Purpose
 
-CloudSetup is a human–AI project foundry that translates AI foresight and
-research into concrete, organization-ready blueprints and runnable reference
-projects. Cloud and GPU infrastructure remains a core enabling capability.
+CloudSetup is a community-benefit human–AI project foundry. It identifies
+high-friction problems affecting ordinary people and communities, checks
+existing work, and translates validated gaps into safe, affordable, reusable
+projects. AI foresight is a source of evidence rather than the mission boundary.
+Cloud and GPU infrastructure is an enabling capability.
 
 ## Priorities
 
@@ -18,6 +20,9 @@ projects. Cloud and GPU infrastructure remains a core enabling capability.
 - Source-to-project provenance and uncertainty labeling
 - Human steering of AI-generated exploration and project generation
 - Reusable outputs for organizations, startups, and applied research teams
+- Measurable everyday benefit, accessibility, affordability, and human agency
+- Physical, digital, and commercial AI governed by public-interest safeguards
+- Existing-work audits before creating new projects
 
 ## Current state
 

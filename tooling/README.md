@@ -43,3 +43,11 @@ python3 tooling/foundry.py export-catalog --include-drafts
 The production website omits `--include-drafts`, so only records whose
 `visibility` is `public` are published. Generated catalog output is build data;
 do not commit it as a second source of truth.
+
+## Check document size
+
+```bash
+python3 tooling/check_markdown_size.py
+```
+
+Every Markdown file must remain within the fixed 200-line repository limit.
