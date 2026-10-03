@@ -1,0 +1,42 @@
+{
+  "framework": {
+    "occupation_code": "47-2111.00",
+    "occupation_title": "Electricians",
+    "source_url": "https://www.onetonline.org/link/summary/47-2111.00",
+    "license_url": "https://www.onetcenter.org/license.html",
+    "license": "CC BY 4.0",
+    "attribution": "Includes adapted information from O*NET OnLine for Electricians (47-2111.00) by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), used under CC BY 4.0. CloudSetup modified and grouped the source task, skill, knowledge, and work-context statements into pre-study competencies. USDOL/ETA has not approved, endorsed, or tested these modifications. O*NET is a trademark of USDOL/ETA."
+  },
+  "competencies": [
+    {
+      "id": "circuit-math",
+      "title": "Electrical circuit mathematics",
+      "description": "Use arithmetic and algebra to reason about voltage, current, and resistance in basic circuit models."
+    },
+    {
+      "id": "power-calculation",
+      "title": "Electrical power calculations",
+      "description": "Calculate power from stated electrical quantities and interpret the units used in equipment information."
+    },
+    {
+      "id": "circuit-relationships",
+      "title": "Series and parallel circuit relationships",
+      "description": "Reason about equivalent resistance and branch behavior in simple, de-energized circuit models."
+    },
+    {
+      "id": "unit-conversion",
+      "title": "Electrical unit conversion",
+      "description": "Convert common prefixes and units accurately when reading specifications or recording measurements."
+    },
+    {
+      "id": "schematic-reading",
+      "title": "Schematic interpretation",
+      "description": "Read simple circuit descriptions and diagrams to identify components, connections, and expected logical states."
+    },
+    {
+      "id": "safety-concepts",
+      "title": "Electrical safety concepts",
+      "description": "Recognize hazard controls, protective-equipment concepts, and the need for codes, qualified supervision, and verified de-energization."
+    }
+  ]
+}

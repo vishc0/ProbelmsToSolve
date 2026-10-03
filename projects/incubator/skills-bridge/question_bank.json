@@ -1,0 +1,95 @@
+{
+  "version": "1.0",
+  "authorship": "Original CloudSetup diagnostic questions; not copied from an exam or curriculum.",
+  "disclaimer": "Diagnostic pre-study only; not a licence or certification.",
+  "questions": [
+    {
+      "id": "ohm-1",
+      "competency_id": "circuit-math",
+      "prompt": "In a circuit model with 24 V across a 6 ohm resistance, what current flows in amperes?",
+      "answer": {"type": "numeric", "value": 4.0, "tolerance": 0.01},
+      "explanation": "Ohm's law gives I = V / R = 24 / 6 = 4 A."
+    },
+    {
+      "id": "ohm-2",
+      "competency_id": "circuit-math",
+      "prompt": "A circuit model has 120 V and 5 A. What is its resistance in ohms?",
+      "answer": {"type": "numeric", "value": 24.0, "tolerance": 0.01},
+      "explanation": "Rearrange V = I x R to R = V / I, so 120 / 5 = 24 ohms."
+    },
+    {
+      "id": "power-1",
+      "competency_id": "power-calculation",
+      "prompt": "A modeled load uses 4 A at 230 V. What power does it use in watts?",
+      "answer": {"type": "numeric", "value": 920.0, "tolerance": 0.5},
+      "explanation": "P = V x I, so 230 x 4 = 920 W."
+    },
+    {
+      "id": "power-2",
+      "competency_id": "power-calculation",
+      "prompt": "A modeled 8 ohm resistor carries 3 A. Using P = I squared x R, what is the power in watts?",
+      "answer": {"type": "numeric", "value": 72.0, "tolerance": 0.1},
+      "explanation": "P = 3 squared x 8 = 9 x 8 = 72 W."
+    },
+    {
+      "id": "series-1",
+      "competency_id": "circuit-relationships",
+      "prompt": "What is the total resistance of 10 ohm and 15 ohm resistors in series?",
+      "answer": {"type": "numeric", "value": 25.0, "tolerance": 0.01},
+      "explanation": "Series resistances add, so 10 + 15 = 25 ohms."
+    },
+    {
+      "id": "parallel-1",
+      "competency_id": "circuit-relationships",
+      "prompt": "What is the equivalent resistance of two 12 ohm resistors in parallel?",
+      "answer": {"type": "numeric", "value": 6.0, "tolerance": 0.01},
+      "explanation": "Two equal resistances in parallel have half the resistance: 12 / 2 = 6 ohms."
+    },
+    {
+      "id": "units-1",
+      "competency_id": "unit-conversion",
+      "prompt": "Convert 2.5 kilohms to ohms.",
+      "answer": {"type": "numeric", "value": 2500.0, "tolerance": 0.1},
+      "explanation": "Kilo means 1,000, so 2.5 x 1,000 = 2,500 ohms."
+    },
+    {
+      "id": "units-2",
+      "competency_id": "unit-conversion",
+      "prompt": "Convert 750 milliamperes to amperes.",
+      "answer": {"type": "numeric", "value": 0.75, "tolerance": 0.001},
+      "explanation": "Milli means one-thousandth, so 750 / 1,000 = 0.75 A."
+    },
+    {
+      "id": "schematic-1",
+      "competency_id": "schematic-reading",
+      "prompt": "A simple schematic description places a source, an open switch, and a lamp in one series loop. What is the modeled lamp state?",
+      "options": {"A": "On", "B": "Off", "C": "Short-circuited", "D": "Brighter than normal"},
+      "answer": {"type": "multiple_choice", "value": "B"},
+      "explanation": "An open switch breaks the modeled series path, so current does not flow and the lamp is off."
+    },
+    {
+      "id": "schematic-2",
+      "competency_id": "schematic-reading",
+      "prompt": "A schematic shows two lamps on separate parallel branches. One branch is open. In the ideal model, what happens to the other branch?",
+      "options": {"A": "It also opens", "B": "It remains a complete branch", "C": "It becomes a series branch", "D": "Its source disappears"},
+      "answer": {"type": "multiple_choice", "value": "B"},
+      "explanation": "Parallel branches provide separate modeled paths, so opening one does not open the other."
+    },
+    {
+      "id": "safety-1",
+      "competency_id": "safety-concepts",
+      "prompt": "What is the central purpose of lockout/tagout?",
+      "options": {"A": "Make energized work faster", "B": "Control hazardous energy and prevent unexpected startup", "C": "Replace training", "D": "Identify wire colors"},
+      "answer": {"type": "multiple_choice", "value": "B"},
+      "explanation": "Lockout/tagout controls hazardous energy so equipment cannot unexpectedly energize or start during authorized work."
+    },
+    {
+      "id": "safety-2",
+      "competency_id": "safety-concepts",
+      "prompt": "What do arc-flash PPE categories communicate at a conceptual level?",
+      "options": {"A": "A worker's licence grade", "B": "Task-specific protective clothing and equipment requirements tied to assessed hazard", "C": "Permission to work energized", "D": "The circuit's normal current"},
+      "answer": {"type": "multiple_choice", "value": "B"},
+      "explanation": "PPE categories help communicate protection selected from a hazard assessment; PPE never grants permission or makes energized work inherently safe."
+    }
+  ]
+}
