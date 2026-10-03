@@ -1,0 +1,35 @@
+version: 1
+sources:
+  - id: 2026-ai-futures-project-ai-2040-plan-a
+    title: "AI 2040: Plan A"
+    authors:
+      - Thomas Larsen
+      - Romeo Dean
+      - Brendan Halstead
+      - Eli Lifland
+      - Ryan Greenblatt
+      - Daniel Kokotajlo
+    publisher: AI Futures Project
+    published: 2026
+    url: https://ai-2040.com/
+    type: scenario-and-policy-proposal
+    status: provisional-primary
+    rights_review: required
+    notes: >-
+      Treat as a recommendation and scenario to stress-test, not as a factual
+      forecast. Confirm with the owner that this is the intended AI 2040 source.
+
+  - id: 2024-elon-impact-of-ai-by-2040
+    title: "A New Age of Enlightenment? A New Threat to Humanity? Experts Imagine the Impact of Artificial Intelligence by 2040"
+    authors:
+      - Lee Rainie
+      - Janna Anderson
+    publisher: Imagining the Digital Future Center, Elon University
+    published: 2024
+    url: https://imaginingthedigitalfuture.org/reports-and-publications/the-impact-of-artificial-intelligence-by-2040/
+    type: expert-canvassing-report
+    status: candidate-supporting-source
+    rights_review: required
+    notes: >-
+      A distinct AI-by-2040 report; retain as a comparison source until the
+      intended anchor is confirmed.

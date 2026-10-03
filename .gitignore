@@ -1,0 +1,44 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+
+# Infrastructure state and generated files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terragrunt-cache/
+crash.log
+
+# Cloud and tool credentials
+.aws/
+.azure/
+.config/gcloud/
+.kube/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node.js
+node_modules/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs and temporary artifacts
+*.log
+tmp/
+temp/
+scratchpad/
