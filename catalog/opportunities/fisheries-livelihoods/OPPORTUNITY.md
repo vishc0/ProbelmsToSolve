@@ -34,10 +34,38 @@ Compare public employment, cooperatives, co-management, quota and rights-based s
 - Protect precise fishing locations, commercially sensitive data, and community or Indigenous knowledge.
 - Do not automate enforcement, quota sanctions, navigation, or safety-critical vessel decisions.
 - Avoid stock, income, or policy-outcome guarantees.
+- Keep trip and location data entirely local with no telemetry or remote synchronization.
+- State that the tool is personal accounting support, not a substitute for Coast Guard manifests or statutory fisheries logbooks.
 
 ## Evidence
 
-TODO: merge Antigravity brief scratchpad/research/areas/fisheries-livelihoods.md
+The P7 brief contrasts record fisheries and aquaculture output with overfished stocks, the dominance of small-scale fishers in employment, and harmful capacity-enhancing subsidies. It proposes private trip economics and lay-share auditing rather than automated enforcement.
+
+### Prior art
+
+- [FAO SSF Guidelines](https://www.fao.org/voluntary-guidelines-small-scale-fisheries/en/) establish human-rights and tenure protections for small-scale fishers.
+- [Global Fishing Watch](https://globalfishingwatch.org/our-map/) provides open satellite AIS monitoring.
+- Norway's [Garantikassen](https://lovdata.no/dokument/NL/lov/1957-06-28-12) is a statutory minimum-earnings precedent for registered fishers during low-catch periods.
+
+### Options and trade-offs
+
+- Transferable quotas constrain catch and reward fleet efficiency, but can consolidate ownership and impose lease costs on working fishers.
+- Community co-management preserves tenure and collective pricing power, but remains exposed to external poaching.
+- State-funded fisher pay decouples income from catch volume, but entails fiscal commitment and catch auditing.
+- A local logbook and pricing auditor supplies cost and wage evidence, but cannot change commodity prices by itself.
+
+### Verification table
+
+| Claim / Figure | URL Verified | Status | Data Year |
+| :--- | :--- | :--- | :--- |
+| FAO SOFIA: Record 223.2M tonnes total fisheries/aquaculture | `https://www.fao.org/publications/home/fao-flagship-publications/the-state-of-world-fisheries-and-aquaculture/en` | Verified | 2022 (Pub 2024) |
+| FAO SOFIA: 37.7% of marine fish stocks overfished in 2021 | `https://www.fao.org/publications/home/fao-flagship-publications/the-state-of-world-fisheries-and-aquaculture/en` | Verified | 2021 (Pub 2024) |
+| Small-scale fisheries employ 90% of 61.8M fishers (40% catch) | `https://openknowledge.fao.org/handle/20.500.14283/cc4576en` | Verified | 2023 |
+| Harmful fisheries subsidies estimated at $22 billion annually | `https://www.wto.org/english/tratop_e/rulesneg_e/fish_e/fish_e.htm` | Verified | 2022/2023 |
+| FAO SSF Guidelines: International small-scale fisheries standards | `https://www.fao.org/voluntary-guidelines-small-scale-fisheries/en/` | Verified | 2015/2024 |
+| Global Fishing Watch: Open satellite AIS vessel tracking map | `https://globalfishingwatch.org/our-map/` | Verified | 2024 |
+| Norway Garantikassen: Statutory earnings guarantee for fishers | `https://lovdata.no/dokument/NL/lov/1957-06-28-12` | Verified | 1957/2023 |
+| NOAA: Fisheries Economics report documenting crew lay share pay | `https://www.fisheries.noaa.gov/resource/document/fisheries-economics-united-states-reports` | Verified | 2022/2024 |
 
 ## Traceability
 

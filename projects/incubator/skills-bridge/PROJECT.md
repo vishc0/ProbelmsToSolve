@@ -38,6 +38,39 @@ Support one electrical-maintenance pathway in one stated jurisdiction: import a 
 
 Run a local model over locally stored user data. Use deterministic retrieval from a small, reviewed competency corpus; show the cited source and reasoning for every mapping; require user confirmation before saving or exporting it.
 
+## Pathway Spec for skills-bridge
+
+### Competencies
+
+- AC/DC circuit theory; Ohm's and Kirchhoff's laws.
+- Single- and three-phase power calculations and conduit-bending geometry.
+- Schematic and ladder-diagram interpretation, including relays, contactors, transformers, and breaker symbols.
+- Digital multimeter use, fault-isolation logic, Lockout/Tagout, and NFPA 70E / OSHA safety fundamentals.
+
+### Sources and licences
+
+- [O*NET 47-2111.00](https://www.onetonline.org/link/summary/47-2111.00) task and knowledge statements, USDOL/ETA, [CC BY 4.0](https://www.onetcenter.org/license.html).
+- [OpenStax University Physics Vol 2](https://openstax.org/details/books/university-physics-volume-2) circuit modules, Rice University, CC BY 4.0.
+- U.S. Navy NEETS Modules 1–3 electrical fundamentals, U.S. Navy, Public Domain.
+- [DGT / Bharat Skills CTS Electrician Question Bank](https://bharatskills.gov.in/Home/StudyMaterial?course=9ZlG2Uo6XjY=&name=Electrician), Ministry of Skill Development, open educational access.
+
+### Diagnostic flow
+
+1. Screen trade numeracy: fractions, decimals, algebraic transposition, `V = I × R`, and `P = V × I`.
+2. Test schematic decoding through identification of industrial electrical symbols.
+3. Test fault-isolation logic with stepwise continuity, voltage-drop, and fuse-isolation scenarios.
+4. Produce a gap profile mapped to public IBEW JATC, Red Seal, or ITI entrance criteria.
+
+### Never-do rules
+
+- Never authorize, instruct, or simulate physical live electrical work or energized troubleshooting (arc-flash/electrocution lethal hazard).
+- Never issue journeyman licences, state certifications, or claim legal regulatory authority.
+- Never monetize test results, exfiltrate user data, or funnel users to predatory private for-profit bootcamps.
+
+### qwen3.5-agent build notes
+
+Implement a lightweight local CLI or web tool using `qwen3.5-agent` with a 16K context through Ollama on CPU or local GPU. Reuse the `homework-helper` Socratic pattern with no network spend and complete user privacy.
+
 ## Acceptance criteria
 
 - A reviewer can reproduce each mapping from the cited competency framework.

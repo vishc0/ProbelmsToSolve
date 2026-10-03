@@ -37,6 +37,8 @@ Compare right-to-repair rules, open telemetry standards, vendor service contract
 
 TODO: merge Antigravity brief scratchpad/research/areas/food-machinery-maintenance.md
 
+Brief pending.
+
 ## Traceability
 
 - `[human-direction]` `CloudSetup/scratchpad/coordination/PROJECT-AREAS-from-todos.md` (P2)
