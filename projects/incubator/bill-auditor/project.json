@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "record_type": "project",
+  "id": "bill-auditor",
+  "title": "Bill Auditor",
+  "summary": "A local-first tool that explains household bills, checks visible charges, and drafts user-reviewed questions or disputes.",
+  "status": "incubator",
+  "visibility": "draft",
+  "domain": "everyday-ai-empowerment",
+  "owner": "Unassigned",
+  "source_opportunity": "catalog/opportunities/household-document-auditor/opportunity.json",
+  "steward": {
+    "name": "Unassigned",
+    "github": ""
+  },
+  "links": {
+    "domains": [
+      "everyday-ai-empowerment"
+    ],
+    "opportunities": [
+      "household-document-auditor"
+    ],
+    "solutions": [
+      "pattern-local-document-auditor"
+    ]
+  },
+  "provenance": {
+    "label": "human-decision",
+    "sources": [
+      "catalog/opportunities/household-document-auditor/opportunity.json"
+    ]
+  },
+  "website": {
+    "slug": "bill-auditor",
+    "featured": false
+  },
+  "repository": {
+    "path": "projects/incubator/bill-auditor",
+    "license": "TBD"
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

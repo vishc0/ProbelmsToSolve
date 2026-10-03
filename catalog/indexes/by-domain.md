@@ -19,6 +19,10 @@ Compute supply chains, registries, hardware limits, and accountable resource use
 
 Energy systems, grids, datacenters, and resilient physical infrastructure.
 
+- **Cluster:** [Brittle Essential Systems](../clusters/cluster-brittle-essential-systems/CLUSTER.md) — hypothesis
+- **Solution:** [Edge Sensing and Small Model](../solutions/pattern-edge-sensing-small-model/SOLUTION.md) — candidate
+- **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) — candidate
+- **Solution:** [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) — candidate
 
 ## [Epistemics and Research Evaluation](../domains/epistemics-and-research-eval/README.md)
 
@@ -29,6 +33,38 @@ Claim verification, scenario scrutiny, evidence quality, and research reliabilit
 
 Affordable, safe AI that reduces everyday friction and restores individual agency.
 
+- **Cluster:** [Algorithmic Wage Suppression](../clusters/cluster-algorithmic-wage-suppression/CLUSTER.md) — hypothesis
+- **Cluster:** [Attention Capture](../clusters/cluster-attention-capture/CLUSTER.md) — hypothesis
+- **Cluster:** [Concentrated Gatekeepers](../clusters/cluster-concentrated-gatekeepers/CLUSTER.md) — hypothesis
+- **Cluster:** [Denial by Default](../clusters/cluster-denial-by-default/CLUSTER.md) — hypothesis
+- **Cluster:** [Easy In, Hard Out](../clusters/cluster-easy-in-hard-out/CLUSTER.md) — hypothesis
+- **Cluster:** [Fine Print and Information Asymmetry](../clusters/cluster-fine-print/CLUSTER.md) — hypothesis
+- **Cluster:** [Junk Fees and Unbundling](../clusters/cluster-junk-fees-and-unbundling/CLUSTER.md) — hypothesis
+- **Cluster:** [Paperwork Churn](../clusters/cluster-paperwork-churn/CLUSTER.md) — hypothesis
+- **Opportunity:** [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) — incubating
+- **Opportunity:** [Household Recurring Cost Clarity](../opportunities/household-recurring-cost-clarity/OPPORTUNITY.md) — incubating
+- **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) — incubator
+- **Project:** [Subscription Checker](../../projects/incubator/subscription-checker/project.json) — incubator
+- **Solution:** [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) — candidate
+- **Solution:** [Personal Safety Guard](../solutions/pattern-personal-safety-guard/SOLUTION.md) — candidate
+- **Solution:** [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) — candidate
+
+## [Global Cooperation and Peace](../domains/global-cooperation-and-peace/README.md)
+
+Transparent, accountable institutions and practical mechanisms for peaceful international cooperation.
+
+- **Cluster:** [Weak Global Cooperation](../clusters/cluster-weak-global-cooperation/CLUSTER.md) — hypothesis
+- **Opportunity:** [Open Governance Observatory](../opportunities/open-governance-observatory/OPPORTUNITY.md) — incubating
+- **Project:** [Veto and Commitment Tracker](../../projects/incubator/veto-commitment-tracker/PROJECT.md) — incubator
+- **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) — candidate
+
+## [Mobility, Logistics, and Supply Chains](../domains/mobility-logistics-and-supply-chains/README.md)
+
+Interoperable, resilient movement of people and goods across fragmented transport and trade systems.
+
+- **Cluster:** [Fragmented Systems with No System Owner](../clusters/cluster-fragmented-systems-no-owner/CLUSTER.md) — hypothesis
+- **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) — candidate
+- **Solution:** [Open Interoperability](../solutions/pattern-open-interoperability/SOLUTION.md) — candidate
 
 ## [Surveillance and Sensing](../domains/surveillance-and-sensing/README.md)
 

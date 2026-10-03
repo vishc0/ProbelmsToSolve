@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "record_type": "project",
+  "id": "veto-commitment-tracker",
+  "title": "Veto and Commitment Tracker",
+  "summary": "A reproducible, neutral tracker for institutional vetoes and public commitments.",
+  "status": "incubator",
+  "visibility": "draft",
+  "domain": "global-cooperation-and-peace",
+  "owner": "Unassigned",
+  "source_opportunity": "catalog/opportunities/open-governance-observatory/opportunity.json",
+  "steward": {
+    "name": "Unassigned",
+    "github": ""
+  },
+  "links": {
+    "domains": [
+      "global-cooperation-and-peace"
+    ],
+    "opportunities": [
+      "open-governance-observatory"
+    ],
+    "solutions": [
+      "pattern-open-data-observatory"
+    ]
+  },
+  "provenance": {
+    "label": "human-decision",
+    "sources": [
+      "catalog/opportunities/open-governance-observatory/opportunity.json"
+    ]
+  },
+  "website": {
+    "slug": "veto-commitment-tracker",
+    "featured": false
+  },
+  "repository": {
+    "path": "projects/incubator/veto-commitment-tracker",
+    "license": "TBD"
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

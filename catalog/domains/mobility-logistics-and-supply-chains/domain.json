@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "record_type": "domain",
+  "id": "mobility-logistics-and-supply-chains",
+  "title": "Mobility, Logistics, and Supply Chains",
+  "summary": "Interoperable, resilient movement of people and goods across fragmented transport and trade systems.",
+  "status": "proposed",
+  "visibility": "draft",
+  "owner": "Unassigned",
+  "links": {},
+  "provenance": {
+    "label": "human-direction",
+    "sources": [
+      "CloudSetup/scratchpad/coordination/TASK-codex-catalog-chains.md"
+    ]
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

@@ -14,6 +14,12 @@
 
 ## Candidate
 
+- **Solution:** [Edge Sensing and Small Model](../solutions/pattern-edge-sensing-small-model/SOLUTION.md) — candidate
+- **Solution:** [Local Document Auditor](../solutions/pattern-local-document-auditor/SOLUTION.md) — candidate
+- **Solution:** [Open Data Observatory](../solutions/pattern-open-data-observatory/SOLUTION.md) — candidate
+- **Solution:** [Open Interoperability](../solutions/pattern-open-interoperability/SOLUTION.md) — candidate
+- **Solution:** [Personal Safety Guard](../solutions/pattern-personal-safety-guard/SOLUTION.md) — candidate
+- **Solution:** [Private Statement Analyser](../solutions/pattern-private-statement-analyser/SOLUTION.md) — candidate
 - **Solution:** [Random Recomputation Audit](../solutions/random-recomputation-audit/SOLUTION.md) — candidate
 
 ## Documented
@@ -22,12 +28,34 @@
 
 ## Hypothesis
 
+- **Cluster:** [Algorithmic Wage Suppression](../clusters/cluster-algorithmic-wage-suppression/CLUSTER.md) — hypothesis
+- **Cluster:** [Attention Capture](../clusters/cluster-attention-capture/CLUSTER.md) — hypothesis
+- **Cluster:** [Brittle Essential Systems](../clusters/cluster-brittle-essential-systems/CLUSTER.md) — hypothesis
+- **Cluster:** [Concentrated Gatekeepers](../clusters/cluster-concentrated-gatekeepers/CLUSTER.md) — hypothesis
+- **Cluster:** [Denial by Default](../clusters/cluster-denial-by-default/CLUSTER.md) — hypothesis
+- **Cluster:** [Easy In, Hard Out](../clusters/cluster-easy-in-hard-out/CLUSTER.md) — hypothesis
+- **Cluster:** [Fine Print and Information Asymmetry](../clusters/cluster-fine-print/CLUSTER.md) — hypothesis
+- **Cluster:** [Fragmented Systems with No System Owner](../clusters/cluster-fragmented-systems-no-owner/CLUSTER.md) — hypothesis
+- **Cluster:** [Junk Fees and Unbundling](../clusters/cluster-junk-fees-and-unbundling/CLUSTER.md) — hypothesis
 - **Cluster:** [Opaque Compute Activity](../clusters/opaque-compute-activity/CLUSTER.md) — hypothesis
+- **Cluster:** [Paperwork Churn](../clusters/cluster-paperwork-churn/CLUSTER.md) — hypothesis
+- **Cluster:** [Weak Global Cooperation](../clusters/cluster-weak-global-cooperation/CLUSTER.md) — hypothesis
 
 ## Incubating
 
+- **Opportunity:** [Household Document Auditor](../opportunities/household-document-auditor/OPPORTUNITY.md) — incubating
+- **Opportunity:** [Household Recurring Cost Clarity](../opportunities/household-recurring-cost-clarity/OPPORTUNITY.md) — incubating
+- **Opportunity:** [Open Governance Observatory](../opportunities/open-governance-observatory/OPPORTUNITY.md) — incubating
 - **Opportunity:** [Packet Verification Auditing](../opportunities/verification-packet-auditing/OPPORTUNITY.md) — incubating
 
 ## Incubator
 
+- **Project:** [Bill Auditor](../../projects/incubator/bill-auditor/PROJECT.md) — incubator
 - **Project:** [Packet Verification Simulator](../../projects/incubator/packet-verification-sim/PROJECT.md) — incubator
+- **Project:** [Subscription Checker](../../projects/incubator/subscription-checker/project.json) — incubator
+- **Project:** [Veto and Commitment Tracker](../../projects/incubator/veto-commitment-tracker/PROJECT.md) — incubator
+
+## Proposed
+
+- **Domain:** [Global Cooperation and Peace](../domains/global-cooperation-and-peace/README.md) — proposed
+- **Domain:** [Mobility, Logistics, and Supply Chains](../domains/mobility-logistics-and-supply-chains/README.md) — proposed

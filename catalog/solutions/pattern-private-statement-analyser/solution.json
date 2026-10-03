@@ -1,0 +1,29 @@
+{
+  "schema_version": "2.0",
+  "record_type": "solution",
+  "id": "pattern-private-statement-analyser",
+  "title": "Private Statement Analyser",
+  "summary": "Analyze financial, pay, or meter statements on-device to surface recurring costs, changes, and discrepancies.",
+  "status": "candidate",
+  "visibility": "draft",
+  "owner": "Unassigned",
+  "links": {
+    "domains": [
+      "everyday-ai-empowerment",
+      "energy-and-infrastructure"
+    ],
+    "clusters": [
+      "cluster-easy-in-hard-out",
+      "cluster-algorithmic-wage-suppression",
+      "cluster-junk-fees-and-unbundling"
+    ]
+  },
+  "provenance": {
+    "label": "ai-inference",
+    "sources": [
+      "CloudSetup/scratchpad/research/SYNTHESIS-problem-cluster-map.md"
+    ]
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

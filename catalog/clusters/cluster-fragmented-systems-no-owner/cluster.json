@@ -1,0 +1,23 @@
+{
+  "schema_version": "2.0",
+  "record_type": "cluster",
+  "id": "cluster-fragmented-systems-no-owner",
+  "title": "Fragmented Systems with No System Owner",
+  "summary": "Each participant optimizes its own layer while no accountable actor improves the end-to-end system.",
+  "status": "hypothesis",
+  "visibility": "draft",
+  "owner": "Unassigned",
+  "links": {
+    "domains": [
+      "mobility-logistics-and-supply-chains"
+    ]
+  },
+  "provenance": {
+    "label": "ai-inference",
+    "sources": [
+      "CloudSetup/scratchpad/research/logistics-supply-chain-draft.md"
+    ]
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

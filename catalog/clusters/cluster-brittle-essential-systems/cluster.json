@@ -1,0 +1,23 @@
+{
+  "schema_version": "2.0",
+  "record_type": "cluster",
+  "id": "cluster-brittle-essential-systems",
+  "title": "Brittle Essential Systems",
+  "summary": "Capital-intensive essential systems concentrate control and retain single points of failure.",
+  "status": "hypothesis",
+  "visibility": "draft",
+  "owner": "Unassigned",
+  "links": {
+    "domains": [
+      "energy-and-infrastructure"
+    ]
+  },
+  "provenance": {
+    "label": "ai-inference",
+    "sources": [
+      "CloudSetup/scratchpad/research/energy-manufacturing-food-draft.md"
+    ]
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

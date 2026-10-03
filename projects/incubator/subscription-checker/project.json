@@ -1,0 +1,44 @@
+{
+  "schema_version": "2.0",
+  "record_type": "project",
+  "id": "subscription-checker",
+  "title": "Subscription Checker",
+  "summary": "A local tool that identifies recurring charges and price changes in user-supplied statement CSV files.",
+  "status": "incubator",
+  "visibility": "draft",
+  "domain": "everyday-ai-empowerment",
+  "owner": "Unassigned",
+  "source_opportunity": "catalog/opportunities/household-recurring-cost-clarity/opportunity.json",
+  "steward": {
+    "name": "Unassigned",
+    "github": ""
+  },
+  "links": {
+    "domains": [
+      "everyday-ai-empowerment"
+    ],
+    "opportunities": [
+      "household-recurring-cost-clarity"
+    ],
+    "solutions": [
+      "pattern-private-statement-analyser",
+      "pattern-local-document-auditor"
+    ]
+  },
+  "provenance": {
+    "label": "human-direction",
+    "sources": [
+      "CloudSetup/scratchpad/coordination/TASK-codex-catalog-chains.md"
+    ]
+  },
+  "website": {
+    "slug": "subscription-checker",
+    "featured": false
+  },
+  "repository": {
+    "path": "projects/incubator/subscription-checker",
+    "license": "TBD"
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

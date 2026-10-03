@@ -1,0 +1,23 @@
+{
+  "schema_version": "2.0",
+  "record_type": "cluster",
+  "id": "cluster-algorithmic-wage-suppression",
+  "title": "Algorithmic Wage Suppression",
+  "summary": "Opaque automated systems set individualized pay and work access without meaningful accountability.",
+  "status": "hypothesis",
+  "visibility": "draft",
+  "owner": "Unassigned",
+  "links": {
+    "domains": [
+      "everyday-ai-empowerment"
+    ]
+  },
+  "provenance": {
+    "label": "ai-inference",
+    "sources": [
+      "CloudSetup/scratchpad/research/economy-and-livelihoods-draft.md"
+    ]
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "2.0",
+  "record_type": "cluster",
+  "id": "cluster-concentrated-gatekeepers",
+  "title": "Concentrated Gatekeepers",
+  "summary": "A small number of providers control essential access, leaving people with few practical alternatives.",
+  "status": "hypothesis",
+  "visibility": "draft",
+  "owner": "Unassigned",
+  "links": {
+    "domains": [
+      "everyday-ai-empowerment"
+    ]
+  },
+  "provenance": {
+    "label": "ai-inference",
+    "sources": [
+      "CloudSetup/scratchpad/research/commercial-painpoints-draft.md"
+    ]
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

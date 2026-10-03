@@ -1,0 +1,38 @@
+{
+  "schema_version": "2.0",
+  "record_type": "opportunity",
+  "id": "open-governance-observatory",
+  "title": "Open Governance Observatory",
+  "summary": "A neutral, reproducible observatory for institutional vetoes, commitments, and cooperation outcomes.",
+  "status": "incubating",
+  "visibility": "draft",
+  "domain": "global-cooperation-and-peace",
+  "owner": "Unassigned",
+  "project_id": "veto-commitment-tracker",
+  "links": {
+    "domains": [
+      "global-cooperation-and-peace"
+    ],
+    "clusters": [
+      "cluster-weak-global-cooperation"
+    ],
+    "projects": [
+      "veto-commitment-tracker"
+    ],
+    "solutions": [
+      "pattern-open-data-observatory"
+    ]
+  },
+  "provenance": {
+    "label": "ai-inference",
+    "sources": [
+      "CloudSetup/scratchpad/research/SYNTHESIS-problem-cluster-map.md"
+    ]
+  },
+  "website": {
+    "slug": "open-governance-observatory",
+    "featured": false
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

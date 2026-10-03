@@ -1,0 +1,23 @@
+{
+  "schema_version": "2.0",
+  "record_type": "cluster",
+  "id": "cluster-denial-by-default",
+  "title": "Denial by Default",
+  "summary": "Institutions benefit when people abandon valid disputes after an initial denial.",
+  "status": "hypothesis",
+  "visibility": "draft",
+  "owner": "Unassigned",
+  "links": {
+    "domains": [
+      "everyday-ai-empowerment"
+    ]
+  },
+  "provenance": {
+    "label": "ai-inference",
+    "sources": [
+      "CloudSetup/scratchpad/research/commercial-painpoints-draft.md"
+    ]
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}
