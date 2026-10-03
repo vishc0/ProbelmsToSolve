@@ -1,5 +1,6 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
+  "record_type": "opportunity",
   "id": "verification-packet-auditing",
   "title": "Packet Verification Auditing",
   "summary": "Random recomputation sampling to detect rogue AI training runs.",
@@ -8,9 +9,30 @@
   "domain": "verification-and-auditing",
   "owner": "Chippa Vishweshwar",
   "project_id": "packet-verification-sim",
+  "links": {
+    "domains": [
+      "verification-and-auditing"
+    ],
+    "clusters": [
+      "opaque-compute-activity"
+    ],
+    "projects": [
+      "packet-verification-sim"
+    ],
+    "solutions": [
+      "random-recomputation-audit"
+    ]
+  },
+  "provenance": {
+    "label": "human-decision",
+    "sources": [
+      "research/analysis/2026-ai-futures-project-ai-2040-plan-a/02_VERIFICATION_AND_COMPUTE_GOVERNANCE.md"
+    ]
+  },
   "website": {
     "slug": "verification-packet-auditing",
     "featured": true
   },
+  "created": "2026-10-02",
   "updated": "2026-10-02"
 }

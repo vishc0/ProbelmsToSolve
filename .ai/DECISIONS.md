@@ -81,3 +81,12 @@ supporting documentation when useful.
 - All AI use runs on flat-rate subscriptions or local models; Gemini CLI and
   per-token API keys are retired from routine work.
 
+## 2026-10-03 — Manifest-backed foundry catalog
+
+- Use globally unique, typed records for domains, problems, cross-domain
+  root-cause clusters, opportunities, projects, and reusable solution patterns.
+- Keep relationships in manifests and generate navigation indexes from them;
+  handwritten folder lists are not sources of truth.
+- Use schema `2.0` for the common ownership, provenance, link, visibility, and
+  timestamp envelope while accepting legacy `1.0` opportunity/project records
+  during migration.

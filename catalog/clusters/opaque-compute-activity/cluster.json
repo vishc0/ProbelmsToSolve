@@ -1,0 +1,21 @@
+{
+  "schema_version": "2.0",
+  "record_type": "cluster",
+  "id": "opaque-compute-activity",
+  "title": "Opaque Compute Activity",
+  "summary": "Important compute activity cannot be independently observed or verified at proportionate cost.",
+  "status": "hypothesis",
+  "visibility": "public",
+  "owner": "Chippa Vishweshwar",
+  "links": {
+    "domains": ["compute-governance", "verification-and-auditing"]
+  },
+  "provenance": {
+    "label": "ai-inference",
+    "sources": [
+      "catalog/problems/unverifiable-compute-execution/problem.json"
+    ]
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "2.0",
+  "record_type": "problem",
+  "id": "unverifiable-compute-execution",
+  "title": "Unverifiable Compute Execution",
+  "summary": "External reviewers cannot cheaply confirm that governed compute followed declared workloads and controls.",
+  "status": "documented",
+  "visibility": "public",
+  "owner": "Chippa Vishweshwar",
+  "links": {
+    "domains": ["compute-governance", "verification-and-auditing"],
+    "clusters": ["opaque-compute-activity"]
+  },
+  "provenance": {
+    "label": "ai-inference",
+    "sources": [
+      "research/analysis/2026-ai-futures-project-ai-2040-plan-a/02_VERIFICATION_AND_COMPUTE_GOVERNANCE.md"
+    ]
+  },
+  "created": "2026-10-03",
+  "updated": "2026-10-03"
+}

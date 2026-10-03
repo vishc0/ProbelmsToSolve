@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "record_type": "cluster",
+  "id": "{{CLUSTER_ID}}",
+  "title": "{{CLUSTER_TITLE}}",
+  "summary": "{{CLUSTER_SUMMARY}}",
+  "status": "hypothesis",
+  "visibility": "draft",
+  "owner": "{{OWNER_NAME}}",
+  "links": {
+    "domains": []
+  },
+  "provenance": {
+    "label": "human-direction",
+    "sources": []
+  },
+  "created": "{{TODAY}}",
+  "updated": "{{TODAY}}"
+}

@@ -1,15 +1,32 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
+  "record_type": "project",
   "id": "{{PROJECT_ID}}",
   "title": "{{PROJECT_TITLE}}",
   "summary": "{{PROJECT_SUMMARY}}",
   "status": "incubator",
   "visibility": "draft",
   "domain": "{{DOMAIN_ID}}",
+  "owner": "{{STEWARD_NAME}}",
   "source_opportunity": "catalog/opportunities/{{OPPORTUNITY_ID}}/opportunity.json",
   "steward": {
     "name": "{{STEWARD_NAME}}",
     "github": ""
+  },
+  "links": {
+    "domains": [
+      "{{DOMAIN_ID}}"
+    ],
+    "opportunities": [
+      "{{OPPORTUNITY_ID}}"
+    ],
+    "solutions": []
+  },
+  "provenance": {
+    "label": "human-decision",
+    "sources": [
+      "catalog/opportunities/{{OPPORTUNITY_ID}}/opportunity.json"
+    ]
   },
   "website": {
     "slug": "{{PROJECT_ID}}",
@@ -19,5 +36,6 @@
     "path": "projects/incubator/{{PROJECT_ID}}",
     "license": "TBD"
   },
+  "created": "{{TODAY}}",
   "updated": "{{TODAY}}"
 }

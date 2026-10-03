@@ -1,0 +1,20 @@
+{
+  "schema_version": "2.0",
+  "record_type": "solution",
+  "id": "{{SOLUTION_ID}}",
+  "title": "{{SOLUTION_TITLE}}",
+  "summary": "{{SOLUTION_SUMMARY}}",
+  "status": "candidate",
+  "visibility": "draft",
+  "owner": "{{OWNER_NAME}}",
+  "links": {
+    "domains": [],
+    "clusters": []
+  },
+  "provenance": {
+    "label": "human-direction",
+    "sources": []
+  },
+  "created": "{{TODAY}}",
+  "updated": "{{TODAY}}"
+}

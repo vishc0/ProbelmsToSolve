@@ -1,8 +1,20 @@
 # Foundry Tooling
 
-`foundry.py` is the deterministic entry point for creating opportunities,
-promoting them into reusable projects, validating their website manifests, and
-exporting public catalog data.
+`foundry.py` creates typed foundry records, validates their relationships,
+generates browsable indexes, and exports public website data.
+
+## Create catalog records
+
+```bash
+python3 tooling/foundry.py new-domain --help
+python3 tooling/foundry.py new-problem --help
+python3 tooling/foundry.py new-cluster --help
+python3 tooling/foundry.py new-solution --help
+```
+
+Problems can link to several domains and clusters. Clusters capture shared root
+causes across domains. Projects link to one or more opportunities and reusable
+solution patterns.
 
 ## Create an opportunity
 
@@ -12,6 +24,7 @@ python3 tooling/foundry.py new-opportunity \
   --title "Human-readable title" \
   --summary "One sentence describing the value" \
   --domain domain-id \
+  --cluster shared-root-cause \
   --owner "Owner name"
 ```
 
@@ -37,8 +50,12 @@ it. It refuses to overwrite an existing directory.
 
 ```bash
 python3 tooling/foundry.py validate
+python3 tooling/foundry.py index
 python3 tooling/foundry.py export-catalog --include-drafts
 ```
+
+The index command regenerates marked Markdown views by domain, problem cluster,
+lifecycle state, and solution pattern.
 
 The production website omits `--include-drafts`, so only records whose
 `visibility` is `public` are published. Generated catalog output is build data;

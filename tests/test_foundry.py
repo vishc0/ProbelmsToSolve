@@ -10,7 +10,7 @@ from pathlib import Path
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 SPEC = importlib.util.spec_from_file_location(
-    "foundry", REPOSITORY_ROOT / "tooling" / "foundry.py"
+    "foundry", REPOSITORY_ROOT / "tooling/foundry.py"
 )
 assert SPEC and SPEC.loader
 foundry = importlib.util.module_from_spec(SPEC)
@@ -22,14 +22,19 @@ class FoundryToolTests(unittest.TestCase):
         self.temporary = tempfile.TemporaryDirectory()
         self.root = Path(self.temporary.name)
         for relative in (
-            "templates/opportunity",
-            "templates/project",
+            "catalog/domains",
+            "catalog/problems",
+            "catalog/clusters",
             "catalog/opportunities",
+            "catalog/solutions",
+            "catalog/indexes",
             "projects/incubator",
             "projects/reference",
         ):
             (self.root / relative).mkdir(parents=True, exist_ok=True)
-        for template in ("opportunity", "project"):
+        for template in (
+            "domain", "problem", "cluster", "opportunity", "solution", "project",
+        ):
             source = REPOSITORY_ROOT / "templates" / template
             target = self.root / "templates" / template
             for path in source.rglob("*"):
@@ -43,91 +48,194 @@ class FoundryToolTests(unittest.TestCase):
     def tearDown(self) -> None:
         self.temporary.cleanup()
 
-    def test_create_link_validate_and_export(self) -> None:
-        opportunity_args = argparse.Namespace(
-            id="verification-audit",
-            title='Verification "Audit"',
-            summary="Detect unauthorized compute with bounded sampling.",
-            domain="compute-governance",
-            owner="Test Owner",
-        )
-        foundry.new_opportunity(opportunity_args, self.root)
+    def args(self, **values: object) -> argparse.Namespace:
+        defaults = {
+            "title": "Test title",
+            "summary": "Test summary",
+            "owner": "Test Owner",
+        }
+        return argparse.Namespace(**(defaults | values))
 
-        project_args = argparse.Namespace(
-            id="audit-simulator",
-            title="Audit Simulator",
-            summary="A reusable verification simulator.",
-            opportunity="verification-audit",
-            steward="Test Steward",
-        )
-        foundry.new_project(project_args, self.root)
+    def create_domain(self, domain_id: str = "compute-governance") -> None:
+        foundry.new_domain(self.args(id=domain_id), self.root)
 
+    def create_complete_chain(self) -> None:
+        self.create_domain()
+        foundry.new_cluster(
+            self.args(id="opaque-decisions", domain=["compute-governance"]),
+            self.root,
+        )
+        foundry.new_problem(
+            self.args(
+                id="unverifiable-results",
+                title="Unverifiable Results",
+                domain=["compute-governance"],
+                cluster=["opaque-decisions"],
+            ),
+            self.root,
+        )
+        foundry.new_solution(
+            self.args(
+                id="sample-and-explain",
+                domain=["compute-governance"],
+                cluster=["opaque-decisions"],
+            ),
+            self.root,
+        )
+        foundry.new_opportunity(
+            self.args(
+                id="verification-audit",
+                domain="compute-governance",
+                cluster=["opaque-decisions"],
+            ),
+            self.root,
+        )
+        foundry.new_project(
+            argparse.Namespace(
+                id="audit-simulator",
+                title="Audit Simulator",
+                summary="A reusable verification simulator.",
+                opportunity=["verification-audit"],
+                solution=["sample-and-explain"],
+                steward="Test Steward",
+            ),
+            self.root,
+        )
+
+    def test_scaffolds_complete_chain_and_exports_it(self) -> None:
+        self.create_complete_chain()
         self.assertEqual(foundry.validate(self.root), [])
-        opportunity = json.loads(
-            (
-                self.root
-                / "catalog/opportunities/verification-audit/opportunity.json"
-            ).read_text(encoding="utf-8")
-        )
-        self.assertEqual(opportunity["project_id"], "audit-simulator")
-        self.assertEqual(opportunity["title"], 'Verification "Audit"')
-
         project_path = self.root / "projects/incubator/audit-simulator/project.json"
         project = json.loads(project_path.read_text(encoding="utf-8"))
-        self.assertEqual(
-            project["source_opportunity"],
-            "catalog/opportunities/verification-audit/opportunity.json",
-        )
-
+        self.assertEqual(project["links"]["opportunities"], ["verification-audit"])
+        self.assertEqual(project["links"]["solutions"], ["sample-and-explain"])
         self.assertEqual(foundry.export_catalog(self.root, False)["projects"], [])
         project["visibility"] = "public"
         project_path.write_text(json.dumps(project), encoding="utf-8")
-        self.assertEqual(
-            len(foundry.export_catalog(self.root, False)["projects"]), 1
+        self.assertEqual(len(foundry.export_catalog(self.root, False)["projects"]), 1)
+
+    def test_indexes_are_generated_from_records(self) -> None:
+        self.create_complete_chain()
+        outputs = foundry.generate_indexes(self.root)
+        self.assertEqual(len(outputs), 5)
+        domain_index = (self.root / "catalog/indexes/by-domain.md").read_text()
+        cluster_index = (self.root / "catalog/indexes/by-cluster.md").read_text()
+        solution_index = (self.root / "catalog/indexes/by-solution.md").read_text()
+        self.assertIn("Generated by tooling/foundry.py index", domain_index)
+        self.assertIn("Audit Simulator", domain_index)
+        self.assertIn("Unverifiable Results", cluster_index)
+        self.assertIn("Audit Simulator", solution_index)
+
+    def test_reports_dangling_reference(self) -> None:
+        self.create_domain()
+        foundry.new_problem(
+            self.args(
+                id="unverifiable-results",
+                domain=["compute-governance"],
+                cluster=["missing-cluster"],
+            ),
+            self.root,
+        )
+        errors = foundry.validate(self.root)
+        self.assertTrue(
+            any("referenced cluster 'missing-cluster' was not found" in e for e in errors)
         )
 
-    def test_refuses_to_overwrite_opportunity(self) -> None:
-        args = argparse.Namespace(
-            id="existing-item",
-            title="Existing Item",
-            summary="Test",
-            domain="test-domain",
-            owner="Owner",
+    def test_reports_every_typed_dangling_link(self) -> None:
+        self.create_domain()
+        domain_path = self.root / "catalog/domains/compute-governance/domain.json"
+        domain = json.loads(domain_path.read_text())
+        domain["links"] = {
+            "domains": ["missing-domain"],
+            "clusters": ["missing-cluster"],
+            "opportunities": ["missing-opportunity"],
+            "projects": ["missing-project"],
+            "solutions": ["missing-solution"],
+        }
+        domain_path.write_text(json.dumps(domain))
+        errors = "\n".join(foundry.validate(self.root))
+        for kind in (
+            "domain", "cluster", "opportunity", "project", "solution",
+        ):
+            self.assertIn(f"referenced {kind} 'missing-{kind}' was not found", errors)
+
+    def test_project_can_implement_multiple_opportunities(self) -> None:
+        self.create_domain()
+        for opportunity_id in ("first-opportunity", "second-opportunity"):
+            foundry.new_opportunity(
+                self.args(
+                    id=opportunity_id,
+                    domain="compute-governance",
+                    cluster=[],
+                ),
+                self.root,
+            )
+        foundry.new_project(
+            argparse.Namespace(
+                id="combined-project",
+                title="Combined Project",
+                summary="Implements two opportunities.",
+                opportunity=["first-opportunity", "second-opportunity"],
+                solution=[],
+                steward="Steward",
+            ),
+            self.root,
         )
-        foundry.new_opportunity(args, self.root)
+        project = json.loads(
+            (
+                self.root / "projects/incubator/combined-project/project.json"
+            ).read_text()
+        )
+        self.assertEqual(
+            project["links"]["opportunities"],
+            ["first-opportunity", "second-opportunity"],
+        )
+        self.assertEqual(foundry.validate(self.root), [])
+
+    def test_reports_duplicate_global_id(self) -> None:
+        self.create_domain("shared-id")
+        foundry.new_cluster(
+            self.args(id="shared-id", domain=["shared-id"]), self.root
+        )
+        errors = foundry.validate(self.root)
+        self.assertTrue(any("duplicate id 'shared-id'" in error for error in errors))
+
+    def test_reports_record_folder_without_manifest(self) -> None:
+        (self.root / "catalog/problems/orphan").mkdir()
+        self.assertIn(
+            "catalog/problems/orphan: missing problem.json",
+            foundry.validate(self.root),
+        )
+
+    def test_accepts_legacy_opportunity_manifest(self) -> None:
+        self.create_domain()
+        folder = self.root / "catalog/opportunities/legacy-opportunity"
+        folder.mkdir()
+        manifest = {
+            "schema_version": "1.0",
+            "id": "legacy-opportunity",
+            "title": "Legacy Opportunity",
+            "summary": "Created by the prior command contract.",
+            "status": "proposed",
+            "visibility": "draft",
+            "domain": "compute-governance",
+            "owner": "Owner",
+            "project_id": None,
+            "website": {"slug": "legacy-opportunity", "featured": False},
+            "updated": "2026-10-03",
+        }
+        (folder / "opportunity.json").write_text(json.dumps(manifest))
+        self.assertEqual(foundry.validate(self.root), [])
+
+    def test_refuses_to_overwrite_record(self) -> None:
+        args = self.args(id="existing-domain")
+        foundry.new_domain(args, self.root)
         with self.assertRaises(FileExistsError):
-            foundry.new_opportunity(args, self.root)
+            foundry.new_domain(args, self.root)
 
     def test_rejects_invalid_slug(self) -> None:
         with self.assertRaises(ValueError):
             foundry.require_slug("Not Valid")
-
-    def test_refuses_second_project_for_same_opportunity(self) -> None:
-        opportunity_args = argparse.Namespace(
-            id="single-owner",
-            title="Single Owner",
-            summary="One opportunity link.",
-            domain="test-domain",
-            owner="Owner",
-        )
-        foundry.new_opportunity(opportunity_args, self.root)
-        first = argparse.Namespace(
-            id="first-project",
-            title="First Project",
-            summary="First",
-            opportunity="single-owner",
-            steward="Steward",
-        )
-        foundry.new_project(first, self.root)
-        second = argparse.Namespace(
-            id="second-project",
-            title="Second Project",
-            summary="Second",
-            opportunity="single-owner",
-            steward="Steward",
-        )
-        with self.assertRaises(ValueError):
-            foundry.new_project(second, self.root)
 
 
 if __name__ == "__main__":

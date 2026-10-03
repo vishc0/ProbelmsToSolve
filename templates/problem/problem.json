@@ -1,0 +1,20 @@
+{
+  "schema_version": "2.0",
+  "record_type": "problem",
+  "id": "{{PROBLEM_ID}}",
+  "title": "{{PROBLEM_TITLE}}",
+  "summary": "{{PROBLEM_SUMMARY}}",
+  "status": "documented",
+  "visibility": "draft",
+  "owner": "{{OWNER_NAME}}",
+  "links": {
+    "domains": [],
+    "clusters": []
+  },
+  "provenance": {
+    "label": "human-direction",
+    "sources": []
+  },
+  "created": "{{TODAY}}",
+  "updated": "{{TODAY}}"
+}

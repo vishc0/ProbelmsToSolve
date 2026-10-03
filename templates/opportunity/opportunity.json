@@ -1,5 +1,6 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
+  "record_type": "opportunity",
   "id": "{{OPPORTUNITY_ID}}",
   "title": "{{OPPORTUNITY_TITLE}}",
   "summary": "{{OPPORTUNITY_SUMMARY}}",
@@ -8,9 +9,22 @@
   "domain": "{{DOMAIN_ID}}",
   "owner": "{{OWNER_NAME}}",
   "project_id": null,
+  "links": {
+    "domains": [
+      "{{DOMAIN_ID}}"
+    ],
+    "clusters": [],
+    "projects": [],
+    "solutions": []
+  },
+  "provenance": {
+    "label": "human-direction",
+    "sources": []
+  },
   "website": {
     "slug": "{{OPPORTUNITY_ID}}",
     "featured": false
   },
+  "created": "{{TODAY}}",
   "updated": "{{TODAY}}"
 }

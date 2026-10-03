@@ -5,18 +5,31 @@ affordable projects that teams can adopt, sponsor, and maintain.
 
 ## Start here
 
-There are four working areas:
+The main working areas are:
 
 | Area | What belongs there |
 |---|---|
 | [`research/`](research/) | Source material and analysis |
+| [`catalog/problems/`](catalog/problems/) | Pain points recorded once with evidence |
+| [`catalog/clusters/`](catalog/clusters/) | Problems grouped by shared root cause |
 | [`catalog/opportunities/`](catalog/opportunities/) | Ideas assessed as concrete opportunities |
+| [`catalog/solutions/`](catalog/solutions/) | Reusable approaches proven across projects |
 | [`projects/`](projects/) | Reusable implementations created from approved opportunities |
 | [`website/`](website/README.md) | Rules for publishing approved opportunities and projects |
 
 The normal path is:
 
-`research -> opportunity -> incubator project -> reference project -> website`
+`research -> problem -> cluster -> opportunity -> project -> solution pattern`
+
+Records use globally unique IDs and typed links. Validate all references and
+rebuild the generated navigation after editing them:
+
+```bash
+python3 tooling/foundry.py validate
+python3 tooling/foundry.py index
+```
+
+The generated views live in [`catalog/indexes/`](catalog/indexes/).
 
 ## Create a reusable opportunity
 
@@ -26,11 +39,16 @@ python3 tooling/foundry.py new-opportunity \
   --title "Opportunity title" \
   --summary "Who benefits and what becomes possible" \
   --domain domain-id \
+  --cluster shared-root-cause \
   --owner "Owner name"
 ```
 
 This creates one self-contained folder in `catalog/opportunities/`. Complete its
 `OPPORTUNITY.md`; `opportunity.json` connects it to the website.
+
+Problems, cross-domain root-cause clusters, and reusable solution patterns use
+the parallel `new-problem`, `new-cluster`, and `new-solution` commands. Run
+each command with `--help` for its repeatable `--domain` and `--cluster` links.
 
 ## Turn an opportunity into a project
 
